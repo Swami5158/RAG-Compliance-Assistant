@@ -1,0 +1,97 @@
+Limitations of LLM / Need of RAG :
+
+1. No knowledge of private data
+2. Not access to data after cutoff date of training data (recent data)
+3. Hallucination : Giving factually incorrect information with confidence (making sth of its own)
+
+
+They can be solved by fine-tuning pretrained LLM's on our curated domain specific dataset
+
+1. Supervised fine tuning (data with labels)( prompt -> desired output)
+2. Continued pre-training (dataset is given without labels) (unsupervised)
+3. RLHF
+
+Process of Fine-Tuning:
+-> To handle hallucinations give tricky prompts in data itself
+a. collect labelled data
+b. choose method - use full parameters or use parameter efficient methods such as LoRA
+c. Train for few epochs
+d. evaluate and safety test : Measure exact-match 
+
+*************************But there are problems with fine-tuning***********************************
+1. Expensive computationally 
+2. technical expertise
+3. fine-tuning multiple times for new updated and removing old ones
+
+***************************************************************************************************
+In-Context Learning can be used instead of it
+-> its core capability of LLMs where the model learns to solve a task purely by seeing examples in 
+    the prompt- without updating its weights
+    -> by using few short prompting
+
+-> Its a emergent property of LLMs
+An emergent property is a behaviour or ability that suddenly appears in a system when it reaches a 
+certain scale or complexity - even though it was not explicitly programmed or expected from the 
+individual components.
+
+-> prompt is given along with context specifically for us
+***************************************************************************************************
+RAG involves :
+***************************************************************************************************
+
+1. Indexing : Storing knowledge graph
+-> Process of preparing knowledge base so that it can be efficiently searched at query time. It has 
+   4 steps
+
+   a. Document Ingestion : Load source knowledge in memory
+      Tools : LangChain libraries
+
+   b. Text Chuncking : Break large documents into small , semantically meaningful chunks.
+        reasons:
+        1. Conext limits tokens
+        2. smaller chuncks give better results for semantic search
+    
+      Tools: RecursiveCharacterTextSplitter (LangChain)
+
+    c. Embedding Generation : Convert each chunk into a dense vector (embedding) that captures its
+                                meaning.
+        reasons:
+        1. similar ideas land close together in vector space
+    
+        Tools : OpenAIEmbeddings
+
+
+    d. Store in vector store : store the vectors along with the original chunck text + metadata in a 
+                                vector DB
+        Local : Chroma . FAISS
+        Cloud : Pinecone , Qdrant
+
+***************************************************************************************************
+2. Retrieval : finding the relevant part of the prompt from knowledge graph
+***************************************************************************************************
+Real time process of finding the most relevant pieces of info from a pre-built index ,based on users
+question
+
+    a. Generate embedding vector for query
+    b. search the closest vector in DB for this query vector
+    c. ranking the found vectors
+    d. fetch the text of top vectors
+***************************************************************************************************
+
+***************************************************************************************************
+3. Augmentation : With help of above 2 steps make a prompt for LLM
+***************************************************************************************************
+Take the relevant text retrived by 2 and mix it with the users query and generate a prompt
+
+
+***************************************************************************************************
+4. Generation : LLM generates text by using prompt
+***************************************************************************************************
+LLM uses the user's query and the retrived and augmented context to generate a response.
+
+
+
+1. Private Data : Obviously solved
+2. Recent info : can simply be added in the knowledge base (its cost effective than LLM fine-tuning)
+3. Hallucinations : also reduced because of augmentation and contexting
+

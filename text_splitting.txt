@@ -1,0 +1,74 @@
+It is process of breaking large chunks of text (like articles , PDFs) into smaller chunks that a 
+LLM can handle effectively.
+
+1. LLMs have limited context length , say 50k tokens. if we simply insert doc in this its limit will
+    exceed (Overcomes model limitations)
+
+2. Downstream tasks : text splitting improves the following tasks done by llm
+    Embedding , Semantic search , Summarization
+
+3. Optimizing computational resources
+
+*********Types of splitting , it happens in 4 types :
+
+**************************************************************************************************
+A. Length Based (simplest method)
+-> size of each chunk is given in terms of number of characters or tokens
+-> works fast but it can cut the words and sentences mid-way losing the semantic meaning
+**************************************************************************************************
+
+from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
+
+loader = PyPDFLoader(path)
+docs = loader.load()
+
+splitter = CharacterTextSplitter(
+    chunk_size=100,
+    chunk_overlap=0,   // main idea is to avoid cutting words mid-way and context is not gone
+                        // it is a trade-off as well because it increases number of chunks
+                        // 10-20% chunk overlap is good range
+    separator=''
+)
+
+result = splitter.split_documents(docs);
+
+**************************************************************************************************
+B. Text Strucutre based
+**************************************************************************************************
+-> Recursive character text splitting
+-> it first tries to make chunk on basis of paragraph , then on basis of sentences , then words , 
+    then character
+-> it ensures words and not cut mid-way , though the sentences can still be cut
+
+
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
+
+loader = PyPDFLoader(path)
+docs = loader.load()
+
+splitter = RecursiveCharacterTextSplitter(
+    chunk_size=100,
+    chunk_overlap=0,   // main idea is to avoid cutting words mid-way and context is not gone
+                        // it is a trade-off as well because it increases number of chunks
+                        // 10-20% chunk overlap is good range
+)
+
+result = splitter.split_documents(docs);
+
+**************************************************************************************************
+C. Document structure based
+**************************************************************************************************
+-> used for splitting text like code , which does not have strcture as a sentence
+-> markdown can also be done by this
+
+**************************************************************************************************
+D. Semantic meaning based
+**************************************************************************************************
+-> first we split the text sentence wise and generate their embedding vector.
+Then we check cosine similarity between the consecutive sentences , where the similarity is low
+we come to know that the context has changed
+
+-> to find similarity we can use standard deviation as a parameter 
+(thrreshold_type , other types also available)

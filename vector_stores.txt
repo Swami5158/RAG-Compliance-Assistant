@@ -1,0 +1,60 @@
+If we make a recommendation system , we will use keyword matching for it and make algorithm as 
+per it.
+
+Limitations:
+
+1. does not guarantee correct and optimal output everytime\
+2. and even when keywords are not matching but if the things are similar it wont recommend it
+
+*****HOW TO IMPROVE IT ?????
+-> now say if we gather plot for the movies to make the system robust and improve it
+-> now we need a system which can understand the plot and give similarity score for it (semantic meaning)
+
+**************************************************************************************************
+Embeddings : It is a technique by which we can capture the semantic meaning of a text and convert it
+            into vectors and represnt numerically
+-> we send text to neural network and then it understands meaning and convert it into vector
+**************************************************************************************************
+
+-> now we can just find similarity between these vectors easily by cosine similarity
+
+PLOT -> EMBEDDING VECTOR -> COSINE SIMILARITY -> NOW WE CAN KNOW THE SIMILAR MOVIES
+
+CHALLENGES :
+
+1. Generating embedding vectors for huge data
+2. Storing them and be able to access them in low cost multiple times
+3. Semantic Search on vectors stored (costly search)
+
+------------->> VECTOR STORE HELPS US SOLVE THESE CHALLENGES
+
+it is system designed to store and retrieve data represented as vectors
+
+Features :
+
+1. Storage : can store metadata of vector with it , and give two storage options
+            -> in memory (RAM) & on disk
+
+2. Similarity Search : helps retrieve the most similar vector to given query vector
+
+3. Indexing : it provides a DS or method that enables fast lookups
+
+4. CRUD Ops
+
+
+**************************************************************************************************
+VECTOR STORE               VS                             VECTOR DATABASE
+-> helps us store and                                   -> it provides all the features
+retrieve vector only                                    Ex: Milvus , Qdrant
+-> does not contain other features 
+like concurrency , authentication,
+backup , ACID , etc
+
+Ex: FAISS
+
+Vector stores in LangChain : it has some standard methods which can be used for all types of vector 
+                            stores
+                        
+
+** Chroma Vector Store : Its lightweight and has some features of DB as well , so it cant be said
+                        as pure vector store also

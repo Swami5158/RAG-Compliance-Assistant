@@ -1,0 +1,72 @@
+Document Loader : Components in LangChain used to load data from various sources into a standardized
+                format (usually as document objects) which can then be used for chunking , embedding,
+                retrieval and generation.
+
+**************************************************************************************************
+1. TextLoader : reads text files and convert into document objects
+-> ideal for log chats , transcripts
+-> stored in list format (page_content , metadata)
+**************************************************************************************************
+from langchain_community.document_loaders import TextLoader
+
+loader = TextLoader('path_of_file',encoding ='utf-8');
+
+docs = loader.load();
+**************************************************************************************************
+
+**************************************************************************************************
+2. PyPDFLoader : reads pdf files and converts each object into a document object
+-> not good for scanned pdfs
+-> stored in list format
+**************************************************************************************************
+from langchain_community.document_loaders import PyPDFLoader
+
+loader = PyPDFLoader('path');
+docs = loader.load();
+
+***Directory Loader**** (for a whole folder with files)
+from langchain_community.documet_loaders import DirectoryLoader , PyPDFLoader
+
+loader = DirectoyLoader(
+    path='',
+    glob='*.pdf',
+    loader_cls= PyPDFLoader
+)
+
+docs = loader.load()
+************************************************************************************************
+
+
+Load VS Lazy-Load
+-> loads everything at once
+-> returns list of document
+-> loads all documents immediately into memory
+Best when :
+    Number of docs is small
+    You want everything loaded upfront
+
+Lazy-Load
+-> Loads on demand
+-> returns generator of Document objects
+-> documents are not loaded all at once , they're fetched one at a time as needed
+-> Best if you are having large number of files
+
+
+**************************************************************************************************
+3. WebBaseLoader : used for loading and extracting text content from web pages
+
+-> it uses BeautifulSoup under the hood to parse HTML and extract visible text
+
+Limitations:
+-> does not handle JS heavy pages well (use SeleniumURLLoader)
+-> Loads only static content
+
+from langchain_community.document_loaders import WebBaseLoader
+
+url = ''
+loader = WebBaseLoader(url);
+docs = loader.load()
+
+**************************************************************************************************
+4. CSVLoader : for csv files , creates a document object for every row
+

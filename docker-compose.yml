@@ -10,7 +10,7 @@ services:
       POSTGRES_PASSWORD: rag_password
 
     ports:
-      - "5433:5432"
+      - "5432:5432"
 
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -28,6 +28,17 @@ services:
 
     depends_on:
       - postgres
+
+  frontend:
+    build: ./frontend
+    container_name: rag_frontend
+    restart: unless-stopped
+
+    ports:
+      - "5173:5173"
+
+    depends_on:
+      - backend
 
 volumes:
   postgres_data:

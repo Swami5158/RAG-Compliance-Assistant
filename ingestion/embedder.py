@@ -1,49 +1,41 @@
-from sentence_transformers import SentenceTransformer
 from chunker import create_chunks
 from pdf_loader import load_data
+import requests
 
-MODEL_NAME = "BAAI/bge-m3"
+MODEL_NAME = "qwen3-embedding:0.6b"
 
-def load_embedding_model():
-    model = SentenceTransformer(MODEL_NAME)
-    return model
 
-def generate_embeddings(chunks,model):
-    texts = [chunk["text"] for chunk in chunks]
+def generate_embeddings(chunks):
+    embeddings = []
 
-    embeddings = model.encode(
-        texts,
-        normalize_embeddings=True
-    )
+    for chunk in chunks:
+        response = requests.post(
+            "http://localhost:11434/api/embeddings",
+            json={
+                "model" : MODEL_NAME,
+                "prompt" : chunk["text"]
+            }
+        )
+
+        response.raise_for_status()
+
+        embedding = response.json()["embedding"]
+        embeddings.append(embedding)
 
     return embeddings
 
 if __name__ == "__main__":
-
-    #1. Load pdf and create structured data
     chapters = load_data(
-         "../documents/rbi_circular_2021_digital_payments.pdf"
+        "../documents/MD_DigitalPaymentSecurity_2021.pdf",
+        "MD_DIGITAL_PAYMENT_SECURITY_2021"
     )
 
-    # 2. Create chunks
     chunks = create_chunks(chapters)
+    print("Total chunks:", len(chunks))
 
-    print("Total chunks : ",len(chunks))
+    embeddings = generate_embeddings(chunks)
 
-    # 3 . load model
-    model = load_embedding_model()
-
-    # 4 . generate embeddings
-    embeddings = generate_embeddings(chunks,model)
-
-    # 5. Verify
-    print("Number of embeddings : ",len(embeddings))
-    print("Embedding dimension : " , len(embeddings[0]))
-
-    print("\nFirst chunk : ")
-    print(chunks[0]["text"])
-
-    print("\nFirst Embedding :")
-    print(embeddings[0])
-    
-
+    print("Number of embeddings:", len(embeddings))
+    print("Embedding dimension:", len(embeddings[0]))
+    print("\nFirst chunk:\n", chunks[0]["text"])
+    print("\nDocument ID of first chunk:", chunks[0]["metadata"]["document_id"])

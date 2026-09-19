@@ -1,302 +1,232 @@
-import re , pymupdf
+import re
+from pathlib import Path
+from docling.document_converter import DocumentConverter, PdfFormatOption
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling.datamodel.base_models import InputFormat
 
-CHAPTER_PATTERN = re.compile(
-    r"^\s*CHAPTER\s*[\u2013\u2014-]?\s*[IVXLCDM]+\s*$",
-    re.IGNORECASE
-)
-
-SECTION_NUMBER_PATTERN = re.compile(
-    r"^\s*\d+\.\s+"
-)
-
-CLAUSE_PATTERN = re.compile(
-    r"^\s*(\d+)\.\s+"
-)
-
-def clean_text(text):
-    # Remove PDF watermark
-    text = re.sub(r"\bWithdrawn\b", "", text, flags=re.IGNORECASE)
-
-    # Remove standalone page numbers
-    # Only removes numbers that appear as their own token/line.
-    text = re.sub(r"(?m)^\s*\d+\s*$", "", text)
-
-    # Remove page numbers accidentally attached to the end of text
-    # Example: "as the case may be. 4"
-    text = re.sub(r"(?<=[.!?])\s+\d+\s*$", "", text)
-
-    # Remove page numbers appearing between words
-    # Example: "build and 5 security aspects"
-    text = re.sub(r"(?<=\w)\s+\d+\s+(?=\w)", " ", text)
-
-    # Clean excessive whitespace
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n\s*\n+", "\n", text)
-
-    return text.strip()
+CHAPTER_PATTERN = re.compile(r'^(CHAPTER|PART)\s*[-–]?\s*([IVXLCM0-9]*)\s*[-–:]?\s*(.*)$', re.IGNORECASE)
+SECTION_PATTERN = re.compile(r'^([A-Z]|\d+)\.\s*(.*)$')
 
 
-def is_bold_line(line):
-    spans = line["spans"]
-    if not spans:
-        return False
+def _get_converter():
+    pipeline_options = PdfPipelineOptions()
+    pipeline_options.do_ocr = False
+    pipeline_options.do_table_structure = True
 
-    meaningful_spans = [
-        span for span in spans if span["text"].strip()
-    ]
-
-    return (
-        meaningful_spans
-        and all(span["flags"] & 16 for span in meaningful_spans)
+    return DocumentConverter(
+        format_options={
+            InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
+        }
     )
 
 
-def get_line_text(line):
-    return "".join(
-        span["text"] for span in line["spans"]
-    ).strip()
+def extract_items(pdf_path: str):
+    converter = _get_converter()
+    result = converter.convert(pdf_path)
+    doc = result.document
+
+    items = []
+    for item, level in doc.iterate_items():
+        label = getattr(item, "label", None)
+        text = getattr(item, "text", "").strip()
+        prov = getattr(item, "prov", None)
+        page_no = prov[0].page_no if prov else None
+
+        items.append({
+            "text": text,
+            "label": label,
+            "level": level,
+            "page_no": page_no
+        })
+
+    return items
 
 
-def looks_like_section(line_text, line):
-    meaningful_spans = [
-        span for span in line["spans"] if span["text"].strip()
-    ]
-
-    if not meaningful_spans:
-        return False
-
-    # Numbered section heading.
-    if SECTION_NUMBER_PATTERN.match(line_text):
-        has_bold_span = any(
-            span["flags"] & 16 for span in meaningful_spans
-        )
-        return has_bold_span
-
-    # Unnumbered section heading.
-    if not is_bold_line(line):
-        return False
-
-    if len(line_text) > 120:
-        return False
-
-    if line_text.endswith((".", ",", ";", ":")):
-        return False
-
-    return True
+def inspect_docling_structure(pdf_path: str, target_page: int = None, max_items: int = 200):
+    items = extract_items(pdf_path)
+    count = 0
+    for item in items:
+        if target_page is not None and item["page_no"] != target_page:
+            continue
+        print(f"[page={item['page_no']}] [level={item['level']}] [label={item['label']}] {item['text']}")
+        count += 1
+        if count >= max_items:
+            break
 
 
-def load_data(pdf_path):
-    doc = pymupdf.open(pdf_path)
+def classify_header(text):
+    chapter_match = CHAPTER_PATTERN.match(text)
+    if chapter_match:
+        label = chapter_match.group(2).strip()
+        title = chapter_match.group(3).strip()
+        return {"type": "chapter", "label": label, "title": title or None}
+
+    section_match = SECTION_PATTERN.match(text)
+    if section_match:
+        label = section_match.group(1).strip()
+        title = section_match.group(2).strip()
+        return {"type": "section", "label": label, "title": title or None}
+
+    return {"type": "plain", "text": text}
+
+
+def load_data(pdf_path: str, document_id: str):
+    items = extract_items(pdf_path)
 
     chapters = []
-
     current_chapter = None
     current_section = None
     current_clause = None
+    pending = None
+    clause_counter = 0
 
-    current_chapter_text = []
-    current_section_text = []
-    current_clause_text = []
+    def close_clause():
+        nonlocal current_clause
+        if current_clause is not None:
+            current_clause["text"] = current_clause["text"].strip()
 
-    expecting_chapter_title = False
+    def close_section():
+        nonlocal current_section
+        close_clause()
+        if current_section is not None:
+            current_section["text"] = current_section["text"].strip()
 
-    for page in doc:
-        # Skip first two pages
-        if page.number < 2:
+    def close_chapter():
+        nonlocal current_chapter
+        close_section()
+        if current_chapter is not None:
+            current_chapter["text"] = current_chapter["text"].strip()
+
+    for item in items:
+        label = item["label"]
+        text = item["text"]
+        page_no = item["page_no"]
+
+        if not text or label in ("picture", "table"):
             continue
 
-        page_number = page.number + 1
-        # "Extract all the text blocks from this page, along with their internal lines and spans."
-        blocks = page.get_text("dict")["blocks"]
+        if label == "section_header":
+            parsed = classify_header(text)
 
-        for block in blocks:
-            if "lines" not in block:
+            if parsed["type"] == "chapter":
+                close_chapter()
+                current_chapter = {
+                    "document_id": document_id,
+                    "chapter": text,
+                    "title": parsed["title"] or "",
+                    "page_start": page_no,
+                    "page_end": page_no,
+                    "text": "",
+                    "sections": [],
+                    "clauses": []
+                }
+                chapters.append(current_chapter)
+                current_section = None
+                current_clause = None
+                clause_counter = 0
+                pending = None if parsed["title"] else "chapter_title"
                 continue
 
-            for line in block["lines"]:
-                line_text = get_line_text(line)
-
-                if not line_text:
-                    continue
-
-                # ==================================================
-                # 1. CHAPTER DETECTION
-                # ==================================================
-                if CHAPTER_PATTERN.fullmatch(line_text):
-                    # Save previous clause
-                    if current_clause is not None:
-                        current_clause["text"] = " ".join(current_clause_text).strip()
-
-                    # Save previous section
-                    if current_section is not None:
-                        current_section["text"] = "\n".join(current_section_text).strip()
-
-                    # Save previous chapter
-                    if current_chapter is not None:
-                        current_chapter["text"] = "\n".join(current_chapter_text).strip()
-
-                    # Create new chapter
-                    current_chapter = {
-                        "chapter": line_text,
-                        "title": "",
-                        "page_start": page_number,
-                        "page_end": page_number,
-                        "text": "",
-                        "sections": [],
-                        "clauses": []
-                    }
-
-                    chapters.append(current_chapter)
-
-                    current_section = None
-                    current_clause = None
-
-                    current_chapter_text = []
-                    current_section_text = []
-                    current_clause_text = []
-
-                    expecting_chapter_title = True
-                    continue
-
-                # ==================================================
-                # 2. CHAPTER TITLE
-                # ==================================================
-                if expecting_chapter_title:
-                    if is_bold_line(line):
-                        current_chapter["title"] = line_text
-                        current_chapter["page_end"] = page_number
-                        expecting_chapter_title = False
-                    continue
-
-                # ==================================================
-                # 3. SECTION DETECTION
-                # ==================================================
-                if current_chapter is not None and looks_like_section(line_text, line):
-                    # Save previous clause
-                    if current_clause is not None:
-                        current_clause["text"] = " ".join(current_clause_text).strip()
-
-                    # Save previous section
-                    if current_section is not None:
-                        current_section["text"] = "\n".join(current_section_text).strip()
-
-                    # Create new section
-                    current_section = {
-                        "section": line_text,
-                        "page_start": page_number,
-                        "page_end": page_number,
-                        "text": "",
-                        "clauses": []
-                    }
-
-                    current_chapter["sections"].append(current_section)
-                    current_chapter["page_end"] = page_number
-
-                    current_clause = None
-                    current_section_text = []
-                    current_clause_text = []
-                    continue
-
-                # ==================================================
-                # 4. CLAUSE DETECTION
-                # ==================================================
-                clause_match = CLAUSE_PATTERN.match(line_text)
-
-                if clause_match:
-                    # Save previous clause
-                    if current_clause is not None:
-                        current_clause["text"] = " ".join(current_clause_text).strip()
-
-                    # Create new clause
-                    current_clause = {
-                        "number": clause_match.group(1),
-                        "page_start": page_number,
-                        "page_end": page_number,
-                        "text": ""
-                    }
-
-                    content = line_text[clause_match.end():].strip()
-                    current_clause_text = [content]
-
-                    # Attach clause to parent
-                    if current_section is not None:
-                        current_section["clauses"].append(current_clause)
-                        current_section["page_end"] = page_number
-                    elif current_chapter is not None:
-                        current_chapter["clauses"].append(current_clause)
-
-                    if current_chapter is not None:
-                        current_chapter["page_end"] = page_number
-
-                    continue
-
-                # ==================================================
-                # 5. NORMAL CONTENT
-                # ==================================================
-                if current_clause is not None:
-                    current_clause_text.append(line_text)
-                    current_clause["page_end"] = page_number
-
-                if current_section is not None:
-                    current_section_text.append(line_text)
-                    current_section["page_end"] = page_number
-
+            if parsed["type"] == "section":
+                close_section()
+                current_section = {
+                    "section": text,
+                    "page_start": page_no,
+                    "page_end": page_no,
+                    "text": "",
+                    "clauses": []
+                }
                 if current_chapter is not None:
-                    current_chapter_text.append(line_text)
-                    current_chapter["page_end"] = page_number
+                    current_chapter["sections"].append(current_section)
+                    current_chapter["page_end"] = page_no
+                current_clause = None
+                clause_counter = 0
+                pending = None if parsed["title"] else "section_title"
+                continue
 
-    # ==============================================================
-    # SAVE FINAL BLOCKS AT END OF FILE
-    # ==============================================================
-    if current_clause is not None:
-        current_clause["text"] = " ".join(current_clause_text).strip()
+            if pending == "chapter_title" and current_chapter is not None:
+                current_chapter["title"] = text
+                pending = None
+                continue
 
-    if current_section is not None:
-        current_section["text"] = "\n".join(current_section_text).strip()
+            if pending == "section_title" and current_section is not None:
+                current_section["section"] += f" — {text}"
+                pending = None
+                continue
 
-    if current_chapter is not None:
-        current_chapter["text"] = "\n".join(current_chapter_text).strip()
+            close_section()
+            current_section = {
+                "section": text,
+                "page_start": page_no,
+                "page_end": page_no,
+                "text": "",
+                "clauses": []
+            }
+            if current_chapter is not None:
+                current_chapter["sections"].append(current_section)
+                current_chapter["page_end"] = page_no
+            current_clause = None
+            clause_counter = 0
+            continue
 
-    doc.close()
+        if label == "list_item":
+            text = re.sub(r'\s*Withdrawn\s*$', '', text).strip()
+
+            # FIX 1: split embedded sub-markers glued into one item, e.g. "...declines); f) Efficient... g) Adequate..."
+            parts = re.split(r'\s(?=[a-z]\)\s)', text)
+
+            for part in parts:
+                part = re.sub(r'^[a-z]\)\s*', '', part.strip()).strip()
+                if not part:
+                    continue
+                clause_counter += 1
+                current_clause = {
+                    "number": str(clause_counter),
+                    "page_start": page_no,
+                    "page_end": page_no,
+                    "text": part
+                }
+                if current_section is not None:
+                    current_section["clauses"].append(current_clause)
+                    current_section["page_end"] = page_no
+                elif current_chapter is not None:
+                    current_chapter["clauses"].append(current_clause)
+                if current_chapter is not None:
+                    current_chapter["page_end"] = page_no
+            continue
+
+        # FIX 2: text/footnote after clauses = section-level closing text, not a clause continuation
+        if label in ("text", "footnote"):
+            if current_clause is not None:
+                if current_section is not None:
+                    current_section["text"] += " " + text
+                elif current_chapter is not None:
+                    current_chapter["text"] += " " + text
+                current_clause = None
+            elif current_section is not None:
+                current_section["text"] += " " + text
+                current_section["page_end"] = page_no
+            elif current_chapter is not None:
+                current_chapter["text"] += " " + text
+                current_chapter["page_end"] = page_no
+            continue
+
+    close_chapter()
     return chapters
 
-# # ==============================================================
-# # TEST & VERIFY OUTPUT
-# # ==============================================================
 
-# chapters = load_data("../documents/rbi_circular_2021_digital_payments.pdf")
+if __name__ == "__main__":
+    pdf_path = "../documents/MD_DigitalPaymentSecurity_2021.pdf"
+    chapters = load_data(pdf_path, "MD_DIGITAL_PAYMENT_SECURITY_2021")
 
-# for chapter in chapters:
-#     print("\n" + "=" * 60)
-#     print(f"CHAPTER: {chapter['chapter']} - {chapter['title']}")
-#     print(f"PAGES  : {chapter['page_start']} -> {chapter['page_end']}")
-#     print("=" * 60)
-
-#     if chapter["sections"]:
-#         for section in chapter["sections"]:
-#             print(f"\n  SECTION: {section['section']}")
-#             print(f"  PAGES  : {section['page_start']} -> {section['page_end']}")
-            
-#             if section["clauses"]:
-#                 clause_strs = [
-#                     f"C{c['number']} ({c['page_start']}-{c['page_end']})"
-#                     if c['page_start'] != c['page_end']
-#                     else f"C{c['number']} (p.{c['page_start']})"
-#                     for c in section["clauses"]
-#                 ]
-#                 print("  CLAUSES: " + ", ".join(clause_strs))
-#             else:
-#                 print("  CLAUSES: None")
-#     else:
-#         print("\n  [NO SECTIONS]")
-#         if chapter["clauses"]:
-#             clause_strs = [
-#                 f"C{c['number']} ({c['page_start']}-{c['page_end']})"
-#                 if c['page_start'] != c['page_end']
-#                 else f"C{c['number']} (p.{c['page_start']})"
-#                 for c in chapter["clauses"]
-#             ]
-#             print("  CLAUSES: " + ", ".join(clause_strs))
-#         else:
-#             print("  CLAUSES: None")    
-
+    for ch in chapters:
+        if ch["page_start"] <= 4 <= ch["page_end"]:
+            print(f"\nCHAPTER: {ch['chapter']} — {ch['title']}")
+            for sec in ch["sections"]:
+                if sec["page_start"] <= 4 <= sec["page_end"]:
+                    print(f"\n  SECTION: {sec['section']}")
+                    print(f"  SECTION TEXT: {sec['text']}")
+                    for clause in sec["clauses"]:
+                        if clause["page_start"] <= 4 <= clause["page_end"]:
+                            print(f"\n    CLAUSE {clause['number']}:")
+                            print(f"    {clause['text']}")

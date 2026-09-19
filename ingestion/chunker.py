@@ -32,6 +32,7 @@ def create_chunks(chapters):
     for chapter in chapters:
         ch_label = chapter["chapter"]
         ch_title = chapter["title"]
+        doc_id = chapter["document_id"]
 
         # --------------------------------------------------
         # 1. Chapter with Sections
@@ -53,6 +54,7 @@ def create_chunks(chapters):
                             "text": full_text,
                             "raw_text": raw_text,
                             "metadata": {
+                                "document_id": doc_id,
                                 "chapter": ch_label,
                                 "chapter_title": ch_title,
                                 "section": sec_title,
@@ -72,6 +74,7 @@ def create_chunks(chapters):
                         "text": full_text,
                         "raw_text": raw_text,
                         "metadata": {
+                            "document_id": doc_id,
                             "chapter": ch_label,
                             "chapter_title": ch_title,
                             "section": sec_title,
@@ -94,6 +97,7 @@ def create_chunks(chapters):
                     "text": full_text,
                     "raw_text": raw_text,
                     "metadata": {
+                        "document_id": doc_id,
                         "chapter": ch_label,
                         "chapter_title": ch_title,
                         "section": None,

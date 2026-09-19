@@ -5,3 +5,5 @@ Ollama : It is a tool which helps us download , run and manage LLMs(open-source)
 
 -> We can then send request to this server and get a response , though for doing this we can use
     python libraries and CLI as well but the work happens through REST API calls only
+
+        

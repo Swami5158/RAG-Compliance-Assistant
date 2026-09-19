@@ -2,11 +2,11 @@ const express = require("express");
 require("dotenv").config();
 
 const app = express();
-const pool = require("./db/connection");
-
-
+const ragPipeline = require("../services/ragPipeline");
+const cors = require("cors");
 
 app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
     res.json({
@@ -14,20 +14,23 @@ app.get("/", (req, res) => {
     });
 })
 
-app.get("/db-test", async (req, res) => {
-    try {
-        const result = await pool.query("SELECT NOW()");
+app.post("/api/ask" ,async (req,res)=>{
+    try{
+        const question = req.body.question;
+        console.log("Got question in app.js and calling Rag Pipeline...");
+        const answer = await ragPipeline(question);
+
         res.json({
-            message: "Database connected",
-            time: result.rows[0].now
-        });
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({
-            message: "Database connection failed"
-        });
+            answer: answer
+        })
     }
-});
+    catch(e){
+        console.log("Could not get response from pipeline..")
+        res.json({
+            error : e
+        })
+    }
+})
 
 const PORT = process.env.PORT || 5000;
 

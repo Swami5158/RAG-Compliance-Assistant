@@ -1,0 +1,393 @@
+{
+  "pairwise": [],
+  "retrieval": {
+    "query": "Star Enterprises",
+    "ranked": [
+      {
+        "name": "Star Enterprises Group",
+        "category": "pool_generic",
+        "similarity": 0.9702668494247151
+      },
+      {
+        "name": "Kappa Motors",
+        "category": "pool_unrelated",
+        "similarity": 0.7760207571261504
+      },
+      {
+        "name": "Krishna Enterprises",
+        "category": "pool_unrelated",
+        "similarity": 0.7722711142587145
+      },
+      {
+        "name": "Acme Traders",
+        "category": "pool_confusing",
+        "similarity": 0.7465435481991273
+      },
+      {
+        "name": "Acme Logistics",
+        "category": "pool_confusing",
+        "similarity": 0.7449068968453879
+      },
+      {
+        "name": "Orion Logistics",
+        "category": "pool_unrelated",
+        "similarity": 0.7433761296751016
+      },
+      {
+        "name": "Acme Robotics Incorporated",
+        "category": "pool_true_variant",
+        "similarity": 0.7344681499151176
+      },
+      {
+        "name": "Acme Robotics",
+        "category": "pool_true_variant",
+        "similarity": 0.7007585896541701
+      },
+      {
+        "name": "National Traders",
+        "category": "pool_generic",
+        "similarity": 0.6931662296328072
+      },
+      {
+        "name": "Acme Robotics Pvt Ltd",
+        "category": "pool_true_variant",
+        "similarity": 0.6856624358261065
+      },
+      {
+        "name": "Acme Robotix",
+        "category": "pool_true_variant",
+        "similarity": 0.6819148048320567
+      },
+      {
+        "name": "Acme Bakery",
+        "category": "pool_confusing",
+        "similarity": 0.6724466805321403
+      },
+      {
+        "name": "Acmee Robotics",
+        "category": "pool_confusing",
+        "similarity": 0.6658450168419829
+      },
+      {
+        "name": "Acme Robotics India",
+        "category": "pool_true_variant",
+        "similarity": 0.6617903432145267
+      },
+      {
+        "name": "National Insurance Corporation",
+        "category": "pool_generic",
+        "similarity": 0.6263408423802715
+      },
+      {
+        "name": "National Bakery",
+        "category": "pool_generic",
+        "similarity": 0.6230231086562937
+      },
+      {
+        "name": "Sunrise Textiles Pvt Ltd",
+        "category": "pool_unrelated",
+        "similarity": 0.6113619861614903
+      },
+      {
+        "name": "Bharat Steel and Alloys",
+        "category": "pool_unrelated",
+        "similarity": 0.6087006770097181
+      },
+      {
+        "name": "Global Technology Solutions",
+        "category": "pool_generic",
+        "similarity": 0.6051190745800707
+      },
+      {
+        "name": "Global Tech Solutions",
+        "category": "pool_generic",
+        "similarity": 0.5969570386432693
+      }
+    ],
+    "byK": {
+      "top5": [
+        {
+          "name": "Star Enterprises Group",
+          "category": "pool_generic",
+          "similarity": 0.9702668494247151
+        },
+        {
+          "name": "Kappa Motors",
+          "category": "pool_unrelated",
+          "similarity": 0.7760207571261504
+        },
+        {
+          "name": "Krishna Enterprises",
+          "category": "pool_unrelated",
+          "similarity": 0.7722711142587145
+        },
+        {
+          "name": "Acme Traders",
+          "category": "pool_confusing",
+          "similarity": 0.7465435481991273
+        },
+        {
+          "name": "Acme Logistics",
+          "category": "pool_confusing",
+          "similarity": 0.7449068968453879
+        }
+      ],
+      "top10": [
+        {
+          "name": "Star Enterprises Group",
+          "category": "pool_generic",
+          "similarity": 0.9702668494247151
+        },
+        {
+          "name": "Kappa Motors",
+          "category": "pool_unrelated",
+          "similarity": 0.7760207571261504
+        },
+        {
+          "name": "Krishna Enterprises",
+          "category": "pool_unrelated",
+          "similarity": 0.7722711142587145
+        },
+        {
+          "name": "Acme Traders",
+          "category": "pool_confusing",
+          "similarity": 0.7465435481991273
+        },
+        {
+          "name": "Acme Logistics",
+          "category": "pool_confusing",
+          "similarity": 0.7449068968453879
+        },
+        {
+          "name": "Orion Logistics",
+          "category": "pool_unrelated",
+          "similarity": 0.7433761296751016
+        },
+        {
+          "name": "Acme Robotics Incorporated",
+          "category": "pool_true_variant",
+          "similarity": 0.7344681499151176
+        },
+        {
+          "name": "Acme Robotics",
+          "category": "pool_true_variant",
+          "similarity": 0.7007585896541701
+        },
+        {
+          "name": "National Traders",
+          "category": "pool_generic",
+          "similarity": 0.6931662296328072
+        },
+        {
+          "name": "Acme Robotics Pvt Ltd",
+          "category": "pool_true_variant",
+          "similarity": 0.6856624358261065
+        }
+      ],
+      "top20": [
+        {
+          "name": "Star Enterprises Group",
+          "category": "pool_generic",
+          "similarity": 0.9702668494247151
+        },
+        {
+          "name": "Kappa Motors",
+          "category": "pool_unrelated",
+          "similarity": 0.7760207571261504
+        },
+        {
+          "name": "Krishna Enterprises",
+          "category": "pool_unrelated",
+          "similarity": 0.7722711142587145
+        },
+        {
+          "name": "Acme Traders",
+          "category": "pool_confusing",
+          "similarity": 0.7465435481991273
+        },
+        {
+          "name": "Acme Logistics",
+          "category": "pool_confusing",
+          "similarity": 0.7449068968453879
+        },
+        {
+          "name": "Orion Logistics",
+          "category": "pool_unrelated",
+          "similarity": 0.7433761296751016
+        },
+        {
+          "name": "Acme Robotics Incorporated",
+          "category": "pool_true_variant",
+          "similarity": 0.7344681499151176
+        },
+        {
+          "name": "Acme Robotics",
+          "category": "pool_true_variant",
+          "similarity": 0.7007585896541701
+        },
+        {
+          "name": "National Traders",
+          "category": "pool_generic",
+          "similarity": 0.6931662296328072
+        },
+        {
+          "name": "Acme Robotics Pvt Ltd",
+          "category": "pool_true_variant",
+          "similarity": 0.6856624358261065
+        },
+        {
+          "name": "Acme Robotix",
+          "category": "pool_true_variant",
+          "similarity": 0.6819148048320567
+        },
+        {
+          "name": "Acme Bakery",
+          "category": "pool_confusing",
+          "similarity": 0.6724466805321403
+        },
+        {
+          "name": "Acmee Robotics",
+          "category": "pool_confusing",
+          "similarity": 0.6658450168419829
+        },
+        {
+          "name": "Acme Robotics India",
+          "category": "pool_true_variant",
+          "similarity": 0.6617903432145267
+        },
+        {
+          "name": "National Insurance Corporation",
+          "category": "pool_generic",
+          "similarity": 0.6263408423802715
+        },
+        {
+          "name": "National Bakery",
+          "category": "pool_generic",
+          "similarity": 0.6230231086562937
+        },
+        {
+          "name": "Sunrise Textiles Pvt Ltd",
+          "category": "pool_unrelated",
+          "similarity": 0.6113619861614903
+        },
+        {
+          "name": "Bharat Steel and Alloys",
+          "category": "pool_unrelated",
+          "similarity": 0.6087006770097181
+        },
+        {
+          "name": "Global Technology Solutions",
+          "category": "pool_generic",
+          "similarity": 0.6051190745800707
+        },
+        {
+          "name": "Global Tech Solutions",
+          "category": "pool_generic",
+          "similarity": 0.5969570386432693
+        }
+      ],
+      "top50": [
+        {
+          "name": "Star Enterprises Group",
+          "category": "pool_generic",
+          "similarity": 0.9702668494247151
+        },
+        {
+          "name": "Kappa Motors",
+          "category": "pool_unrelated",
+          "similarity": 0.7760207571261504
+        },
+        {
+          "name": "Krishna Enterprises",
+          "category": "pool_unrelated",
+          "similarity": 0.7722711142587145
+        },
+        {
+          "name": "Acme Traders",
+          "category": "pool_confusing",
+          "similarity": 0.7465435481991273
+        },
+        {
+          "name": "Acme Logistics",
+          "category": "pool_confusing",
+          "similarity": 0.7449068968453879
+        },
+        {
+          "name": "Orion Logistics",
+          "category": "pool_unrelated",
+          "similarity": 0.7433761296751016
+        },
+        {
+          "name": "Acme Robotics Incorporated",
+          "category": "pool_true_variant",
+          "similarity": 0.7344681499151176
+        },
+        {
+          "name": "Acme Robotics",
+          "category": "pool_true_variant",
+          "similarity": 0.7007585896541701
+        },
+        {
+          "name": "National Traders",
+          "category": "pool_generic",
+          "similarity": 0.6931662296328072
+        },
+        {
+          "name": "Acme Robotics Pvt Ltd",
+          "category": "pool_true_variant",
+          "similarity": 0.6856624358261065
+        },
+        {
+          "name": "Acme Robotix",
+          "category": "pool_true_variant",
+          "similarity": 0.6819148048320567
+        },
+        {
+          "name": "Acme Bakery",
+          "category": "pool_confusing",
+          "similarity": 0.6724466805321403
+        },
+        {
+          "name": "Acmee Robotics",
+          "category": "pool_confusing",
+          "similarity": 0.6658450168419829
+        },
+        {
+          "name": "Acme Robotics India",
+          "category": "pool_true_variant",
+          "similarity": 0.6617903432145267
+        },
+        {
+          "name": "National Insurance Corporation",
+          "category": "pool_generic",
+          "similarity": 0.6263408423802715
+        },
+        {
+          "name": "National Bakery",
+          "category": "pool_generic",
+          "similarity": 0.6230231086562937
+        },
+        {
+          "name": "Sunrise Textiles Pvt Ltd",
+          "category": "pool_unrelated",
+          "similarity": 0.6113619861614903
+        },
+        {
+          "name": "Bharat Steel and Alloys",
+          "category": "pool_unrelated",
+          "similarity": 0.6087006770097181
+        },
+        {
+          "name": "Global Technology Solutions",
+          "category": "pool_generic",
+          "similarity": 0.6051190745800707
+        },
+        {
+          "name": "Global Tech Solutions",
+          "category": "pool_generic",
+          "similarity": 0.5969570386432693
+        }
+      ]
+    }
+  }
+}

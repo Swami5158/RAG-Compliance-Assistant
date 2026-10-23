@@ -1,0 +1,53 @@
+| Exp|      Config      | Recall@20 | MRR |
+|----|------------------| ---       | --- |
+| E0 | Dense baseline   | 0.96      | 0.71| -> for Recall@ 70 | 0.98 / 0.71
+| E1 | BM25 alone       | 0.92      | 0.62 |
+| E2 | Hybrid + RRF     | 0.98      | 0.72 |
+| E3 | E2 + reranker    | 0.98      | 0.77 |
+
+
+----------for Recall@ 70 | 0.98 / 0.71
+cross_document_comparative: Recall = 1.000, MRR = 0.766, n=20, hits=20, misses=0, avgRankWhenHit=1.85
+single_document_factual: Recall = 0.950, MRR = 0.787, n=10, hits=10, misses=0, avgRankWhenHit=2.00
+multi_clause_spanning: Recall = 0.950, MRR = 0.520, n=10, hits=10, misses=0, avgRankWhenHit=2.20
+vocabulary_mismatch: Recall = 1.000, MRR = 0.727, n=10, hits=10, misses=0, avgRankWhenHit=5.00
+
+--- CATEGORY PERFORMANCE --- E0
+cross_document_comparative: Recall = 1.000, MRR = 0.766, n=20, hits=20, misses=0, avgRankWhenHit=1.85
+single_document_factual: Recall = 0.950, MRR = 0.787, n=10, hits=10, misses=0, avgRankWhenHit=2.00
+multi_clause_spanning: Recall = 0.950, MRR = 0.520, n=10, hits=10, misses=0, avgRankWhenHit=2.20
+vocabulary_mismatch: Recall = 0.900, MRR = 0.723, n=10, hits=9, misses=1, avgRankWhenHit=2.78
+
+
+
+--- CATEGORY PERFORMANCE --- E1
+cross_document_comparative: Recall = 0.975, MRR = 0.756, n=20, hits=20, misses=0, avgRankWhenHit=1.75
+single_document_factual: Recall = 0.950, MRR = 0.611, n=10, hits=10, misses=0, avgRankWhenHit=4.40
+multi_clause_spanning: Recall = 0.950, MRR = 0.750, n=10, hits=10, misses=0, avgRankWhenHit=1.50
+vocabulary_mismatch: Recall = 0.750, MRR = 0.270, n=10, hits=8, misses=2, avgRankWhenHit=8.50
+
+
+
+--- CATEGORY PERFORMANCE --- E2
+cross_document_comparative: Recall = 1.000, MRR = 0.850, n=20, hits=20, misses=0, avgRankWhenHit=1.40
+single_document_factual: Recall = 0.950, MRR = 0.746, n=10, hits=10, misses=0, avgRankWhenHit=2.10
+multi_clause_spanning: Recall = 0.950, MRR = 0.700, n=10, hits=10, misses=0, avgRankWhenHit=1.60
+vocabulary_mismatch: Recall = 1.000, MRR = 0.475, n=10, hits=10, misses=0, avgRankWhenHit=4.70
+
+
+--- CATEGORY PERFORMANCE --- E3
+cross_document_comparative: Recall = 1.000, MRR = 0.825, n=20, hits=20, misses=0, avgRankWhenHit=1.45
+single_document_factual: Recall = 0.950, MRR = 0.825, n=10, hits=10, misses=0, avgRankWhenHit=2.40
+multi_clause_spanning: Recall = 0.950, MRR = 0.775, n=10, hits=10, misses=0, avgRankWhenHit=1.60
+vocabulary_mismatch: Recall = 1.000, MRR = 0.629, n=10, hits=10, misses=0, avgRankWhenHit=3.50
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+Average Faithfulness by Judge: for hybrid (bm25 + dense)
+judge
+gemini-3.5-flash-lite    0.796905
+
+Average Faithfulness by Judge: Dense only
+judge
+gemini-3.5-flash-lite    0.739238

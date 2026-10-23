@@ -1,0 +1,74 @@
+[
+  { "name": "Acme Robotics", "category": "A_exact", "pairId": "A1" },
+  { "name": "Acme Robotics", "category": "A_exact", "pairId": "A1" },
+  { "name": "Sunrise Textiles Pvt Ltd", "category": "A_exact", "pairId": "A2" },
+  { "name": "Sunrise Textiles Pvt Ltd", "category": "A_exact", "pairId": "A2" },
+
+  { "name": "Acme Robotics Inc.", "category": "B_legal_suffix", "pairId": "B1" },
+  { "name": "Acme Robotics Incorporated", "category": "B_legal_suffix", "pairId": "B1" },
+  { "name": "Sharma Traders Pvt. Ltd.", "category": "B_legal_suffix", "pairId": "B2" },
+  { "name": "Sharma Traders Private Limited", "category": "B_legal_suffix", "pairId": "B2" },
+
+  { "name": "ABC Manufacturing Pvt Ltd", "category": "C_abbreviation", "pairId": "C1" },
+  { "name": "ABC Mfg. Co.", "category": "C_abbreviation", "pairId": "C1" },
+  { "name": "National Insurance Corporation", "category": "C_abbreviation", "pairId": "C2" },
+  { "name": "Natl. Ins. Corp.", "category": "C_abbreviation", "pairId": "C2" },
+
+  { "name": "Acme Robotics", "category": "D_spelling_variation", "pairId": "D1" },
+  { "name": "Acme Robotix", "category": "D_spelling_variation", "pairId": "D1" },
+  { "name": "Krishna Enterprises", "category": "D_spelling_variation", "pairId": "D2" },
+  { "name": "Krishnaa Enterprises", "category": "D_spelling_variation", "pairId": "D2" },
+
+  { "name": "Acme Robotics India Pvt Ltd", "category": "E_word_add_remove", "pairId": "E1" },
+  { "name": "Acme Robotics", "category": "E_word_add_remove", "pairId": "E1" },
+  { "name": "Bharat Steel and Alloys", "category": "E_word_add_remove", "pairId": "E2" },
+  { "name": "Bharat Steel", "category": "E_word_add_remove", "pairId": "E2" },
+
+  { "name": "Mumbai Auto Services", "category": "F_word_order", "pairId": "F1" },
+  { "name": "Auto Services Mumbai", "category": "F_word_order", "pairId": "F1" },
+  { "name": "Delhi Fresh Foods", "category": "F_word_order", "pairId": "F2" },
+  { "name": "Fresh Foods Delhi", "category": "F_word_order", "pairId": "F2" },
+
+  { "name": "Acme Robotics", "category": "G_different_company", "pairId": "G1" },
+  { "name": "Kappa Motors", "category": "G_different_company", "pairId": "G1" },
+  { "name": "Sunrise Textiles Pvt Ltd", "category": "G_different_company", "pairId": "G2" },
+  { "name": "Orion Logistics", "category": "G_different_company", "pairId": "G2" },
+
+  { "name": "Apple Bank", "category": "H_shared_generic_word", "pairId": "H1" },
+  { "name": "Apple Hospital", "category": "H_shared_generic_word", "pairId": "H1" },
+  { "name": "National Traders", "category": "H_shared_generic_word", "pairId": "H2" },
+  { "name": "National Bakery", "category": "H_shared_generic_word", "pairId": "H2" },
+
+  { "name": "Acme Robotics", "category": "I_same_address_diff_name", "pairId": "I1" },
+  { "name": "Acme Bakery", "category": "I_same_address_diff_name", "pairId": "I1" },
+
+  { "name": "Global Tech Solutions", "category": "J_similar_maybe_diff", "pairId": "J1" },
+  { "name": "Global Technology Solutions", "category": "J_similar_maybe_diff", "pairId": "J1" },
+  { "name": "Star Enterprises", "category": "J_similar_maybe_diff", "pairId": "J2" },
+  { "name": "Star Enterprises Group", "category": "J_similar_maybe_diff", "pairId": "J2" },
+
+  { "name": "Acme Robotics", "category": "pool_true_variant" },
+  { "name": "Acme Robotics Pvt Ltd", "category": "pool_true_variant" },
+  { "name": "Acme Robotics Incorporated", "category": "pool_true_variant" },
+  { "name": "Acme Robotix", "category": "pool_true_variant" },
+  { "name": "Acme Robotics India", "category": "pool_true_variant" },
+
+  { "name": "Kappa Motors", "category": "pool_unrelated" },
+  { "name": "Orion Logistics", "category": "pool_unrelated" },
+  { "name": "Bharat Steel and Alloys", "category": "pool_unrelated" },
+  { "name": "Sunrise Textiles Pvt Ltd", "category": "pool_unrelated" },
+  { "name": "Krishna Enterprises", "category": "pool_unrelated" },
+
+  { "name": "Acme Bakery", "category": "pool_confusing" },
+  { "name": "Acme Logistics", "category": "pool_confusing" },
+  { "name": "Acme Traders", "category": "pool_confusing" },
+  { "name": "Acmee Robotics", "category": "pool_confusing" },
+
+  { "name": "National Traders", "category": "pool_generic" },
+  { "name": "National Bakery", "category": "pool_generic" },
+  { "name": "National Insurance Corporation", "category": "pool_generic" },
+  { "name": "Global Tech Solutions", "category": "pool_generic" },
+  { "name": "Global Technology Solutions", "category": "pool_generic" },
+  { "name": "Star Enterprises", "category": "pool_generic" },
+  { "name": "Star Enterprises Group", "category": "pool_generic" }
+]

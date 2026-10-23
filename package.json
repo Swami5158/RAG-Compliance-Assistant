@@ -1,5 +1,10 @@
-    {
+{
         "scripts": {
-            "dev": "docker compose up -d && docker compose ps"
+                "dev": "docker compose up -d && docker compose ps"
+        },
+        "dependencies": {
+                "node": "^22.23.3",
+                "nodemon": "^3.1.14",
+                "pdfjs-dist": "^3.11.174"
         }
-    }
+}

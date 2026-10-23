@@ -1,0 +1,465 @@
+[
+  {
+    "question": "Before the 2026 revision, which classes of regulated entities were required to comply with the Digital Payment Security Controls master direction, including the treatment of NBFCs?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under the July 2026 directions, which institutions are included in the term \"Commercial Banks,\" and which specialist bank categories are expressly excluded?",
+    "category": "cross_document_comparative",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "When setting tolerances for security risk in a digital payment product, what did the February 2021 direction tell regulated entities to document and compare against actual results?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under the current rules, what examples illustrate the product-level limits and performance indicators that a bank may establish for a digital payment service?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "In the earlier master direction, what customer-data inventory and PCI-compliance information had to be maintained through the risk-and-control self-assessment process?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 2,
+    "finalBestRank": 1,
+    "rankShift": -1
+  },
+  {
+    "question": "How should a bank determine how often to perform an RCSA under the 2026 framework, and what must it do when a vendor has conducted the assessment?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 5,
+    "finalBestRank": 1,
+    "rankShift": -4
+  },
+  {
+    "question": "If a third-party vendor licensed a digital payment application, what continuity mechanism did the pre-revision master direction specifically require?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "For vendor-licensed payment applications under the present directions, is source-code escrow the only permissible way to protect service continuity?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What did the 2021 mobile-application controls say about enforcing a device policy before allowing installation or execution?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 2,
+    "finalBestRank": 1,
+    "rankShift": -1
+  },
+  {
+    "question": "How does the current mobile-payments framework flesh out the baseline conditions that should be checked before a bank permits app installation or execution?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 2,
+    "finalBestRank": 1,
+    "rankShift": -1
+  },
+  {
+    "question": "Before the revision, what integrity information did a regulated entity have to publish so users could verify the genuine mobile application?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 0.3333333333333333,
+    "initialBestRank": 2,
+    "finalBestRank": 3,
+    "rankShift": 1
+  },
+  {
+    "question": "Beyond hosting the active application's checksum, how may a bank satisfy the current control when its mobile app is available exclusively through an app store?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What implementation approach and customer safeguards did the earlier direction attach to binding a mobile payment application to a device, especially when multiple devices were permitted?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under the current mobile-application rules, how must device binding be implemented, and what notifications and device-management facilities are required for multiple registered devices?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 2,
+    "finalBestRank": 2,
+    "rankShift": 0
+  },
+  {
+    "question": "Which supplementary website controls did the 2021 master direction require or recommend against brute-force attacks, DoS attacks, DNS cache poisoning, and credential-entry risks?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What website protections must banks provide under the current internet-banking security controls?",
+    "category": "cross_document_comparative",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "Which PCI security standards beyond PCI-DSS and PA-DSS did the 2021 master direction list for comprehensive payment-card security?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Which PCI standards now sit alongside PCI-DSS and PCI-SSF in the 2026 card-payment controls?",
+    "category": "cross_document_comparative",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What safeguards did the earlier master direction attach to the use of third-party tools that scan a payment ecosystem for unencrypted card data?",
+    "category": "cross_document_comparative",
+    "recall": 0.5,
+    "reciprocal_rank": 0.2,
+    "initialBestRank": 2,
+    "finalBestRank": 5,
+    "rankShift": 3
+  },
+  {
+    "question": "Under the current rules, where must card data discovered by an audit scanning tool reside, and how may service providers access or analyse it?",
+    "category": "cross_document_comparative",
+    "recall": 0.5,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 2,
+    "finalBestRank": 2,
+    "rankShift": 0
+  },
+  {
+    "question": "Under Chapter I of the 2026 Directions, how is 'Cybersecurity' formally defined, and which external lexicon is the source for this and other definitions?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under the 2026 Directions, which non-financial customer activities (such as balance enquiry or PIN change) fall within the scope of 'digital payment products and services', and what associated IT assets are also covered?",
+    "category": "single_document_factual",
+    "recall": 0.5,
+    "reciprocal_rank": 0.3333333333333333,
+    "initialBestRank": 1,
+    "finalBestRank": 3,
+    "rankShift": 2
+  },
+  {
+    "question": "Under the 2026 Directions' repeal and saving provisions, what is the effect of the repeal on actions, approvals, penalties, or legal proceedings that arose under the earlier repealed directions?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Does the issuance of the 2026 Directions restrict or derogate from the application of any other laws, rules, regulations, or directions currently in force?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under paragraph 69(2) of the 2026 Directions, to which committee must a bank submit a status report on its compliance with the applicable PCI card payment standards?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under the applicability clause of the 2021 Master Direction, which non-bank category of regulated entity was explicitly brought within scope?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under the 2026 Card Payment Security Controls, what exemption applies to already-deployed PoS terminals when their PCI-PTS certification expires during service?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under the 2026 Mobile Payments Application Security Controls, what flexibility is a bank given regarding the illustrative list of customer-end data protection controls (such as encryption, sandboxing, and code obfuscation)?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "Under Chapter I of the 2026 Directions, how is 'Malware' formally defined?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 4,
+    "finalBestRank": 2,
+    "rankShift": -2
+  },
+  {
+    "question": "Under the 2021 Master Direction's commencement clause, what exception applied to instructions already issued by DPSS, DoR, or DoS to select regulated entities, despite the general six-month effective-date window?",
+    "category": "single_document_factual",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What combination of generic security controls together cover secure communication protocol standards, the prohibition on storing sensitive data in HTML hidden fields/cookies, WAF and DDoS mitigation deployment, and timely digital certificate renewal?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 2,
+    "finalBestRank": 2,
+    "rankShift": 0
+  },
+  {
+    "question": "What combination of clauses establishes the Board-approved policy requirement, its mandatory FSP-angle content, and the obligation to review the policy at least annually?",
+    "category": "multi_clause_spanning",
+    "recall": 0.5,
+    "reciprocal_rank": 0.3333333333333333,
+    "initialBestRank": 4,
+    "finalBestRank": 3,
+    "rankShift": -1
+  },
+  {
+    "question": "What clauses together govern the maximum number of failed login/authentication attempts before access is blocked, and the secure procedure required to re-activate that blocked access?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What sequential clauses trace the Application Security Life Cycle from multi-tier architecture segregation and secure-by-design principles, through threat modelling, to the source code escrow requirement for third-party licensed applications?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 0.3333333333333333,
+    "initialBestRank": 2,
+    "finalBestRank": 3,
+    "rankShift": 1
+  },
+  {
+    "question": "What consecutive clauses specify continuous automated vulnerability scanning, the comparison of results across earlier scans to confirm remediation, and the requirement that scanning be performed in authenticated mode?",
+    "category": "multi_clause_spanning",
+    "recall": 0.5,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What combination of sub-clauses governs merchant terminal validation against the PCI-P2PE program, PCI-PTS approval for PoS terminals, and acquirer-level key security such as UKPT, DUKPT, or TLE?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 1,
+    "finalBestRank": 2,
+    "rankShift": 1
+  },
+  {
+    "question": "What consecutive clauses require customer onboarding usage guidelines within the app, a dedicated section for lodging grievances, and compliance with the Online Dispute Resolution system for digital payments?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 2,
+    "finalBestRank": 2,
+    "rankShift": 0
+  },
+  {
+    "question": "Which provisions together govern the repeal of prior directions, and the non-prejudicial continuity of rights, penalties, and legal proceedings arising under the repealed framework?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What clauses together require the bank's risk assessment to factor in dependence on third-party service providers, and separately require the bank to evaluate RCSA work conducted by a vendor?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 1,
+    "finalBestRank": 1,
+    "rankShift": 0
+  },
+  {
+    "question": "What combination of clauses requires at least one dynamic or non-replicable authentication factor for electronic payments, and separately requires fraud-alert systems to be parameterised against signals like transaction velocity and high-risk merchant codes?",
+    "category": "multi_clause_spanning",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 3,
+    "finalBestRank": 2,
+    "rankShift": -1
+  },
+  {
+    "question": "Can a customer send money online using just their regular password, with nothing else needed to prove it's really them?",
+    "category": "vocabulary_mismatch",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "Are banks allowed to keep customers' card numbers written out in plain, readable form anywhere in their systems or at vendor locations?",
+    "category": "vocabulary_mismatch",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 1,
+    "finalBestRank": 2,
+    "rankShift": 1
+  },
+  {
+    "question": "How does the bank stop someone from making payments through a fake or cloned version of its app?",
+    "category": "vocabulary_mismatch",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "Can a customer just skip past the safety instructions when they first set up the banking app?",
+    "category": "vocabulary_mismatch",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "What happens if someone keeps typing the wrong PIN or password into the banking app — does it lock them out, and how do they get back in?",
+    "category": "vocabulary_mismatch",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "Does the bank have to watch out for fake lookalike apps pretending to be its own on app stores and the web?",
+    "category": "vocabulary_mismatch",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "initialBestRank": 2,
+    "finalBestRank": 1,
+    "rankShift": -1
+  },
+  {
+    "question": "Will the banking app refuse to install or work on a phone that's been hacked open or jailbroken by its owner?",
+    "category": "vocabulary_mismatch",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "What does the bank do to stop card-skimming devices being attached to its ATMs?",
+    "category": "vocabulary_mismatch",
+    "recall": 1,
+    "reciprocal_rank": 0.5,
+    "initialBestRank": 1,
+    "finalBestRank": 2,
+    "rankShift": 1
+  },
+  {
+    "question": "If an outside software vendor messes up security on an app it built for the bank, can the bank actually penalise them for it?",
+    "category": "vocabulary_mismatch",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "initialBestRank": null,
+    "finalBestRank": null,
+    "rankShift": 0
+  },
+  {
+    "question": "What kind of unusual account activity does the bank's fraud system watch out for, like sudden bursts of transactions or payments from strange locations?",
+    "category": "vocabulary_mismatch",
+    "recall": 0.5,
+    "reciprocal_rank": 1,
+    "initialBestRank": 2,
+    "finalBestRank": 1,
+    "rankShift": -1
+  }
+]
+
+Recall is 0.78
+MRR is 0.6806666666666666
+--- CATEGORY PERFORMANCE ---
+cross_document_comparative: Recall = 0.850, MRR = 0.777, n=20, hits=18, misses=2, avgRankWhenHit=1.44
+single_document_factual: Recall = 0.950, MRR = 0.883, n=10, hits=10, misses=0, avgRankWhenHit=1.30
+multi_clause_spanning: Recall = 0.900, MRR = 0.667, n=10, hits=10, misses=0, avgRankWhenHit=1.80
+vocabulary_mismatch: Recall = 0.350, MRR = 0.300, n=10, hits=4, misses=6, avgRankWhenHit=1.50
+
+--- RERANKER SHIFT SUMMARY ---
+Improved Rank (Moved Closer to #1): 9 queries
+Worsened Rank (Moved Down): 7 queries
+Unchanged Rank: 34 queries

@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Can a customer send money online using just their regular password, with nothing else needed to prove it's really them?",
+    "recall": 0,
+    "reciprocal_rank": 0,
+    "bestRank": null,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "Are banks allowed to keep customers' card numbers written out in plain, readable form anywhere in their systems or at vendor locations?",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "bestRank": 1,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "How does the bank stop someone from making payments through a fake or cloned version of its app?",
+    "recall": 1,
+    "reciprocal_rank": 0.06666666666666667,
+    "bestRank": 15,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "Can a customer just skip past the safety instructions when they first set up the banking app?",
+    "recall": 1,
+    "reciprocal_rank": 0.09090909090909091,
+    "bestRank": 11,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "What happens if someone keeps typing the wrong PIN or password into the banking app — does it lock them out, and how do they get back in?",
+    "recall": 1,
+    "reciprocal_rank": 0.034482758620689655,
+    "bestRank": 29,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "Does the bank have to watch out for fake lookalike apps pretending to be its own on app stores and the web?",
+    "recall": 1,
+    "reciprocal_rank": 1,
+    "bestRank": 1,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "Will the banking app refuse to install or work on a phone that's been hacked open or jailbroken by its owner?",
+    "recall": 1,
+    "reciprocal_rank": 0.2,
+    "bestRank": 5,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "What does the bank do to stop card-skimming devices being attached to its ATMs?",
+    "recall": 1,
+    "reciprocal_rank": 0.2,
+    "bestRank": 5,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "If an outside software vendor messes up security on an app it built for the bank, can the bank actually penalise them for it?",
+    "recall": 1,
+    "reciprocal_rank": 0.14285714285714285,
+    "bestRank": 7,
+    "category": "vocabulary_mismatch"
+  },
+  {
+    "question": "What kind of unusual account activity does the bank's fraud system watch out for, like sudden bursts of transactions or payments from strange locations?",
+    "recall": 1,
+    "reciprocal_rank": 0.05555555555555555,
+    "bestRank": 18,
+    "category": "vocabulary_mismatch"
+  }
+]

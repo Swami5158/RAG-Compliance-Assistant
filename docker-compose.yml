@@ -29,6 +29,7 @@ services:
     volumes:
       - ./backend:/app
       - /app/node_modules
+      - hf_cache:/app/.cache
 
     command: npm run dev
     
@@ -54,3 +55,4 @@ services:
 
 volumes:
   postgres_data:
+  hf_cache:

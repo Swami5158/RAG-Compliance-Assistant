@@ -1,0 +1,42 @@
+[
+  {
+    "category": "single_document_factual",
+    "array": [
+      {
+        "question": "Under Chapter I of the 2026 Directions, how is 'Cybersecurity' formally defined, and which external lexicon is the source for this and other definitions?",
+        "org_document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "gold_pages": [
+          3
+        ],
+        "answer": "{\n  \"status\": \"ANSWERED\",\n  \"answer\": \"Cybersecurity is formally defined as the preservation of confidentiality, integrity, and availability of information, and/or information systems through the cyber medium. In addition, other properties, such as authenticity, accountability, nonrepudiation, and reliability can also be involved. The source for this definition is [CHUNK 1]. For other definitions, the source is as per [CHUNK 19] and [CHUNK 1].\",\n  \"evidence\": [\n    {\n      \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2026\",\n      \"page\": 3,\n      \"quote\": \"‘Cybersecurity’ - Preservation of confidentiality, integrity, and availability of information, and / or information systems through the cyber medium. In addition, other properties, such as authenticity, accountability, nonrepudiation, and reliability can also be involved.\"\n    },\n    {\n      \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2026\",\n      \"page\": 4,\n      \"quote\": \"All other expressions unless defined herein shall have the same meaning as have been assigned to them under the Reserve Bank of India Act, 1934, Banking Regulation Act, 1949, Payment and Settlement Systems Act, 2007, Information Technology Act, 2000, or the Companies Act, 2013, or any statutory modification or re-enactment thereto or other regulations issued by the RBI or the Glossary of Terms published by the RBI or as used in commercial parlance, as the case may be.\"\n    }\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "category": "multi_clause_spanning",
+    "array": [
+      {
+        "question": "What combination of generic security controls together cover secure communication protocol standards, the prohibition on storing sensitive data in HTML hidden fields/cookies, WAF and DDoS mitigation deployment, and timely digital certificate renewal?",
+        "org_document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "gold_pages": [
+          10,
+          11
+        ],
+        "answer": "I'll provide a structured compliance response as per the JSON output schema.\n\n```json\n{\n  \"status\": \"ANSWERED\",\n  \"answer\": \"The following combination of generic security controls together cover secure communication protocol standards, the prohibition on storing sensitive data in HTML hidden fields/cookies, WAF and DDoS mitigation deployment, and timely digital certificate renewal:\n\n1. Secure communication protocol standards: The bank shall adhere to a secure standard in the digital payment channels (especially over Internet) and implement an appropriate level of encryption and security in the digital payment ecosystem (MD_DIGITAL_PAYMENT_SECURITY_2026, Page 10).\n2. Prohibition on storing sensitive data in HTML hidden fields/cookies: Web applications providing digital payment products and services shall not store sensitive information in HTML hidden fields, cookies, or any other client-side storage (MD_DIGITAL_PAYMENT_SECURITY_2026, Page 10).\n3. WAF and DDoS mitigation deployment: The bank shall implement Web Application Firewall (WAF) solution and DDoS mitigation techniques to secure the digital payment products and services offered over internet (MD_DIGITAL_PAYMENT_SECURITY_2026, Page 11).\n4. Timely digital certificate renewal: The bank shall renew its digital certificates used in the digital payment ecosystem well in time (MD_DIGITAL_PAYMENT_SECURITY_2026, Page 11).\n\nEvidence:\n[\n  {\n    \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2026\",\n    \"page\": 10,\n    \"quote\": \"The communication protocol in the digital payment channels (especially over internet) shall adhere to a secure standard. An appropriate level of encryption and security shall be implemented in the digital payment ecosystem.\"\n  },\n  {\n    \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2026\",\n    \"page\": 10,\n    \"quote\": \"Web applications providing the digital payment products and services shall not store sensitive information in Hyper-Text Mark-up Language (HTML) hidden fields, cookies, or any other client-side storage to avoid any compromise in the integrity of the data.\"\n  },\n  {\n    \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2026\",\n    \"page\": 11,\n    \"quote\": \"The bank shall implement Web Application Firewall (WAF) solution and DDoS mitigation techniques to secure the digital payment products and services offered over internet.\"\n  },\n  {\n    \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2026\",\n    \"page\": 11,\n    \"quote\": \"The bank shall renew its digital certificates used in the digital payment ecosystem well in time.\"\n  }\n]\n}\n```\n\nThis response covers all the required security controls together, as per the provided context."
+      }
+    ]
+  },
+  {
+    "category": "vocabulary_mismatch",
+    "array": [
+      {
+        "question": "Can a customer send money online using just their regular password, with nothing else needed to prove it's really them?",
+        "org_document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "gold_pages": [
+          14
+        ],
+        "answer": "{\n  \"status\": \"ANSWERED\",\n  \"answer\": \"No, a customer cannot send money online using just their regular password, as multifactor authentication is required for payments through electronic modes and fund transfers, including cash withdrawals from ATMs / micro-ATMs / business correspondents, through digital payment applications. At least one of the authentication methodologies should be dynamic or non-replicable.\",\n  \"evidence\": [\n    {\n      \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2026\",\n      \"page\": 14,\n      \"quote\": \"The bank shall implement, except where explicitly permitted / relaxed, multifactor authentication for payments through electronic modes and fund transfers, including cash withdrawals from ATMs / micro-ATMs / business correspondents, through digital payment applications. At least one of the authentication methodologies shall be dynamic or non-replicable.\"\n    },\n    {\n      \"document_id\": \"MD_DIGITAL_PAYMENT_SECURITY_2021\",\n      \"page\": 10,\n      \"quote\": \"In view of the proliferation of cyber-attacks and their potential consequences, REs should implement, except where explicitly permitted/ relaxed, multi-factor authentication for payments through electronic modes and fund transfers, including cash withdrawals from ATMs/ micro-ATMs/ business correspondents, through digital payment applications. At least one of the authentication methodologies should be generally dynamic or non-replicable.\"\n    }\n  ]\n}"
+      }
+    ]
+  }
+]

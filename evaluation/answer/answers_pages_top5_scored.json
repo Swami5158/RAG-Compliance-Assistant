@@ -1,0 +1,2904 @@
+[
+  {
+    "id": "cross_document_comparative_0",
+    "category": "cross_document_comparative",
+    "question": "Before the 2026 revision, which classes of regulated entities were required to comply with the Digital Payment Security Controls master direction, including the treatment of NBFCs?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      3
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 3,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 3,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "a) Scheduled Commercial Banks (excluding Regional Rural Banks); b) Small Finance"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 40607
+  },
+  {
+    "id": "cross_document_comparative_1",
+    "category": "cross_document_comparative",
+    "question": "Under the July 2026 directions, which institutions are included in the term \"Commercial Banks,\" and which specialist bank categories are expressly excluded?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      2
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": false,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "70. With the issue of these Directions, the existing directions, instructions, a"
+      }
+    ],
+    "outcome": "retrieval_miss",
+    "outcome_stated": "retrieval_miss",
+    "latency_ms": 30008
+  },
+  {
+    "id": "cross_document_comparative_2",
+    "category": "cross_document_comparative",
+    "question": "When setting tolerances for security risk in a digital payment product, what did the February 2021 direction tell regulated entities to document and compare against actual results?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      5
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 6,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 5,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "document specific security objectives and performance criteria including quantit"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 6,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 5,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "periodically compare actual results with projections and qualitative benchmarks "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "model_miss",
+    "latency_ms": 27692
+  },
+  {
+    "id": "cross_document_comparative_3",
+    "category": "cross_document_comparative",
+    "question": "Under the current rules, what examples illustrate the product-level limits and performance indicators that a bank may establish for a digital payment service?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      7,
+      8
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 8,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 8,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "Illustrative examples of such limits include, inter alia, parameters derived fro"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 13,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 7,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "As part of this process, the bank shall define product-level limits on the level"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 34798
+  },
+  {
+    "id": "cross_document_comparative_4",
+    "category": "cross_document_comparative",
+    "question": "In the earlier master direction, what customer-data inventory and PCI-compliance information had to be maintained through the risk-and-control self-assessment process?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      6
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 6,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 6,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "In such an exercise, it is imperative for REs to maintain database of all system"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 12,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 6,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "REs shall have necessary capacity, systems and procedures in place to periodical"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 36662
+  },
+  {
+    "id": "cross_document_comparative_5",
+    "category": "cross_document_comparative",
+    "question": "How should a bank determine how often to perform an RCSA under the 2026 framework, and what must it do when a vendor has conducted the assessment?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      9
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 9,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 9,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The periodicity of RCSA may be determined by the bank based on changes in the sc"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 25143
+  },
+  {
+    "id": "cross_document_comparative_6",
+    "category": "cross_document_comparative",
+    "question": "If a third-party vendor licensed a digital payment application, what continuity mechanism did the pre-revision master direction specifically require?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      8
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 8,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 8,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "For digital payment applications that are licensed by a third party vendor, REs "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 27863
+  },
+  {
+    "id": "cross_document_comparative_7",
+    "category": "cross_document_comparative",
+    "question": "For vendor-licensed payment applications under the present directions, is source-code escrow the only permissible way to protect service continuity?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      12
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 8,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 8,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "For digital payment applications that are licensed by a third party vendor, REs "
+      }
+    ],
+    "outcome": "model_miss",
+    "outcome_stated": "model_miss",
+    "latency_ms": 25666
+  },
+  {
+    "id": "cross_document_comparative_8",
+    "category": "cross_document_comparative",
+    "question": "What did the 2021 mobile-application controls say about enforcing a device policy before allowing installation or execution?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      16
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 16,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "a) Device policy enforcement (allowing app installation/ execution after baselin"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 24979
+  },
+  {
+    "id": "cross_document_comparative_9",
+    "category": "cross_document_comparative",
+    "question": "How does the current mobile-payments framework flesh out the baseline conditions that should be checked before a bank permits app installation or execution?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      22
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 22,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 22,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "device policy enforcement [allowing the installation / execution of applications"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 16,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Device policy enforcement (allowing app installation/ execution after baseline r"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 29901
+  },
+  {
+    "id": "cross_document_comparative_10",
+    "category": "cross_document_comparative",
+    "question": "Before the revision, what integrity information did a regulated entity have to publish so users could verify the genuine mobile application?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      16
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 16,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "59. Checksum of current active version of application shall be hosted on public "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 24493
+  },
+  {
+    "id": "cross_document_comparative_11",
+    "category": "cross_document_comparative",
+    "question": "Beyond hosting the active application's checksum, how may a bank satisfy the current control when its mobile app is available exclusively through an app store?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      23
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 5,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "Where the mobile application is made available exclusively through mobile platfo"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "model_miss",
+    "latency_ms": 27590
+  },
+  {
+    "id": "cross_document_comparative_12",
+    "category": "cross_document_comparative",
+    "question": "What implementation approach and customer safeguards did the earlier direction attach to binding a mobile payment application to a device, especially when multiple devices were permitted?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      17
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 17,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 17,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The device binding should be preferably implemented through a combination of har"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 17,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 17,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "In case, the RE allows multiple devices to be registered, then, (a) the user mus"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 32224
+  },
+  {
+    "id": "cross_document_comparative_13",
+    "category": "cross_document_comparative",
+    "question": "Under the current mobile-application rules, how must device binding be implemented, and what notifications and device-management facilities are required for multiple registered devices?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      23,
+      24
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(6) The bank shall ensure device binding of the mobile application. Device bindi"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "unverified",
+        "resolved_document_id": null,
+        "resolved_page": null,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": false,
+        "quote_preview": "(6) In case, the bank allows multiple devices to be registered, then, (i) the us"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 17,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 17,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The device binding should be preferably implemented through a combination of har"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 33803
+  },
+  {
+    "id": "cross_document_comparative_14",
+    "category": "cross_document_comparative",
+    "question": "Which supplementary website controls did the 2021 master direction require or recommend against brute-force attacks, DoS attacks, DNS cache poisoning, and credential-entry risks?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      15
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "Internet banking websites are vulnerable to authentication related brute force a"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "Appropriate measures shall be taken to prevent DNS cache poisoning attacks and f"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "Virtual keyboard option should be made available."
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 34708
+  },
+  {
+    "id": "cross_document_comparative_15",
+    "category": "cross_document_comparative",
+    "question": "What website protections must banks provide under the current internet-banking security controls?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      21
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 21,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 21,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank, based on its risk / vulnerability assessment on authentication-related"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 21,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 21,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall take appropriate measures to prevent Domain Name System (DNS) cac"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 21,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 21,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "A virtual keyboard option shall be made available."
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 21,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 21,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "An online session shall be automatically terminated after a fixed period of inac"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 21,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 21,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall ensure secure delivery of password for login purpose. The passwor"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 21,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 21,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "When the internet banking application is accessed through external websites (e.g"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Internet banking websites are vulnerable to authentication related brute force a"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Appropriate measures shall be taken to prevent DNS cache poisoning attacks and f"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Virtual keyboard option should be made available."
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "An online session shall be automatically terminated after a fixed period of inac"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Secure delivery of password for login purpose shall be ensured. The password gen"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 15,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "When the internet banking application is accessed through external websites (eg:"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 59422
+  },
+  {
+    "id": "cross_document_comparative_16",
+    "category": "cross_document_comparative",
+    "question": "Which PCI security standards beyond PCI-DSS and PA-DSS did the 2021 master direction list for comprehensive payment-card security?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      18
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 18,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 18,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "67. REs shall follow various payment card standards (over and above PCI-DSS and "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 35825
+  },
+  {
+    "id": "cross_document_comparative_17",
+    "category": "cross_document_comparative",
+    "question": "Which PCI standards now sit alongside PCI-DSS and PCI-SSF in the 2026 card-payment controls?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      26
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 26,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 26,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall follow various payment card standards [over and above Payment Car"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 26,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 26,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(i) Payment Card Industry-Personal Identification Number (PCI-PIN) -secure manag"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 26,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 26,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(ii) Payment Card Industry-PIN Transaction Security (PCI-PTS) - security approva"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 26,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 26,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(iii) Payment Card Industry-Hardware Security Module (PCI-HSM) -securing cardhol"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 26,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 26,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(iv) Payment Card Industry-Point to Point Encryption (PCI-P2PE) -security standa"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 41007
+  },
+  {
+    "id": "cross_document_comparative_18",
+    "category": "cross_document_comparative",
+    "question": "What safeguards did the earlier master direction attach to the use of third-party tools that scan a payment ecosystem for unencrypted card data?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      19,
+      20
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 20,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 20,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "d) The discovered data, if any, must preferably reside in the scanning tool. Exp"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 20,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 19,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "b) The scanning tool should be installed only in the RE's premises on their devi"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 35333
+  },
+  {
+    "id": "cross_document_comparative_19",
+    "category": "cross_document_comparative",
+    "question": "Under the current rules, where must card data discovered by an audit scanning tool reside, and how may service providers access or analyse it?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      29,
+      30
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 30,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 30,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(iv) discovered data, if any, shall reside in the scanning tool;"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 30,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 30,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(v) exportable card data shall be appropriately masked (no data, even masked, sh"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 30,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 30,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(vi) service providers shall be provided limited access to conduct the scan or a"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 34520
+  },
+  {
+    "id": "single_document_factual_20",
+    "category": "single_document_factual",
+    "question": "Under Chapter I of the 2026 Directions, how is 'Cybersecurity' formally defined, and which external lexicon is the source for this and other definitions?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      3
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 3,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 3,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "‘Cybersecurity’ - Preservation of confidentiality, integrity, and availability o"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 34325
+  },
+  {
+    "id": "single_document_factual_21",
+    "category": "single_document_factual",
+    "question": "Under the 2026 Directions, which non-financial customer activities (such as balance enquiry or PIN change) fall within the scope of 'digital payment products and services', and what associated IT assets are also covered?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      2,
+      3
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 3,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 3,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "PSOs), and the associated IT assets (applications, systems, infrastructure) shal"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 32076
+  },
+  {
+    "id": "single_document_factual_22",
+    "category": "single_document_factual",
+    "question": "Under the 2026 Directions' repeal and saving provisions, what is the effect of the repeal on actions, approvals, penalties, or legal proceedings that arose under the earlier repealed directions?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      31
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "Notwithstanding such repeal, any action taken or purported to have been taken, o"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "Further, the repeal of these directions, instructions, or guidelines shall not i"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(1) any right, obligation or liability acquired, accrued, or incurred thereunder"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(2) any penalty, forfeiture, or punishment incurred in respect of any contravent"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(3) any investigation, legal proceeding, or remedy in respect of any such right,"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 49104
+  },
+  {
+    "id": "single_document_factual_23",
+    "category": "single_document_factual",
+    "question": "Does the issuance of the 2026 Directions restrict or derogate from the application of any other laws, rules, regulations, or directions currently in force?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      31
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 32,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "The provisions of these Directions shall be in addition to, and not in derogatio"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "model_miss",
+    "latency_ms": 33012
+  },
+  {
+    "id": "single_document_factual_24",
+    "category": "single_document_factual",
+    "question": "Under paragraph 69(2) of the 2026 Directions, to which committee must a bank submit a status report on its compliance with the applicable PCI card payment standards?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      27
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 27,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 27,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall put up a status report on compliance with these standards to its "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 32064
+  },
+  {
+    "id": "single_document_factual_25",
+    "category": "single_document_factual",
+    "question": "Under the applicability clause of the 2021 Master Direction, which non-bank category of regulated entity was explicitly brought within scope?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      3
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 3,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 3,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "b) Small Finance Banks;"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 3,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 3,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "c) Payments Banks;"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 3,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 3,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "d) Credit card issuing NBFCs."
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 34993
+  },
+  {
+    "id": "single_document_factual_26",
+    "category": "single_document_factual",
+    "question": "Under the 2026 Card Payment Security Controls, what exemption applies to already-deployed PoS terminals when their PCI-PTS certification expires during service?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      27
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 27,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 27,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "PoS terminals already deployed may not be required to undergo re-certification u"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 34077
+  },
+  {
+    "id": "single_document_factual_27",
+    "category": "single_document_factual",
+    "question": "Under the 2026 Mobile Payments Application Security Controls, what flexibility is a bank given regarding the illustrative list of customer-end data protection controls (such as encryption, sandboxing, and code obfuscation)?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      23
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(viii) application sandbox / containerisation; and (ix) code obfuscation."
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank may, however, adopt alternate / compensating controls, strictly ensurin"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 35068
+  },
+  {
+    "id": "single_document_factual_28",
+    "category": "single_document_factual",
+    "question": "Under Chapter I of the 2026 Directions, how is 'Malware' formally defined?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      4
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 4,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 4,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "‘Malware’ - Software designed with malicious intent containing features or capab"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 31950
+  },
+  {
+    "id": "single_document_factual_29",
+    "category": "single_document_factual",
+    "question": "Under the 2021 Master Direction's commencement clause, what exception applied to instructions already issued by DPSS, DoR, or DoS to select regulated entities, despite the general six-month effective-date window?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "gold_pages": [
+      3
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 3,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 3,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "However, in respect of instructions already issued either by Department of Payme"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 39403
+  },
+  {
+    "id": "multi_clause_spanning_30",
+    "category": "multi_clause_spanning",
+    "question": "What combination of generic security controls together cover secure communication protocol standards, the prohibition on storing sensitive data in HTML hidden fields/cookies, WAF and DDoS mitigation deployment, and timely digital certificate renewal?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      10,
+      11
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 7,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 7,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The communication protocol in the digital payment channels (especially over Inte"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 7,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 7,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Web applications providing the digital payment products and services should not "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 7,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 7,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "REs shall implement Web Application Firewall (WAF) solution and DDoS mitigation "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 7,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 7,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "REs shall renew their digital certificates used in digital payment ecosystem wel"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall undertake a review of the risk scenarios and existing security me"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall develop sound internal control systems and take into account the "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall ensure that its digital payment architecture is robust and scalab"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall have necessary capacity, systems, and procedures in place to peri"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall implement Web Application Firewall (WAF) solution and DDoS mitiga"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall renew its digital certificates used in the digital payment ecosys"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The mobile application (mobile banking / mobile payment applications of the bank"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 108976
+  },
+  {
+    "id": "multi_clause_spanning_31",
+    "category": "multi_clause_spanning",
+    "question": "What combination of clauses establishes the Board-approved policy requirement, its mandatory FSP-angle content, and the obligation to review the policy at least annually?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      6,
+      7
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 5,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 5,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The Board of Directors shall approve the policies related to digital payment pro"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 7,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 7,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The Board and Senior Management shall be responsible for implementation of this "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 7,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 7,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The policy shall require that every digital payment product / service offered ad"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 61507
+  },
+  {
+    "id": "multi_clause_spanning_32",
+    "category": "multi_clause_spanning",
+    "question": "What clauses together govern the maximum number of failed login/authentication attempts before access is blocked, and the secure procedure required to re-activate that blocked access?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      16
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "REs should set down the maximum number of failed log-in or authentication attemp"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "They should have a secure procedure in place to re-activate the access to blocke"
+      }
+    ],
+    "outcome": "model_miss",
+    "outcome_stated": "model_miss",
+    "latency_ms": 43901
+  },
+  {
+    "id": "multi_clause_spanning_33",
+    "category": "multi_clause_spanning",
+    "question": "What sequential clauses trace the Application Security Life Cycle from multi-tier architecture segregation and secure-by-design principles, through threat modelling, to the source code escrow requirement for third-party licensed applications?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      11,
+      12
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "C. Application Security Life Cycle 27. The bank shall implement multi-tier appli"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "28. The bank shall follow a ‘secure by design’ approach in the development of di"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 12,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 12,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "30. The bank (including those partnering with other entities to co-brand / co-de"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 12,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 12,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "31. For digital payment applications licensed by a third-party vendor, the bank "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 61373
+  },
+  {
+    "id": "multi_clause_spanning_34",
+    "category": "multi_clause_spanning",
+    "question": "What consecutive clauses specify continuous automated vulnerability scanning, the comparison of results across earlier scans to confirm remediation, and the requirement that scanning be performed in authenticated mode?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      13,
+      14
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 13,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 13,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank may also run automated VA scanning tools on a continuous / more frequen"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 13,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 13,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall compare the results from earlier vulnerability scans to verify / "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 13,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 13,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall ensure that vulnerability scanning is performed in authenticated "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 48109
+  },
+  {
+    "id": "multi_clause_spanning_35",
+    "category": "multi_clause_spanning",
+    "question": "What combination of sub-clauses governs merchant terminal validation against the PCI-P2PE program, PCI-PTS approval for PoS terminals, and acquirer-level key security such as UKPT, DUKPT, or TLE?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      27
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 27,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 27,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall ensure that (i) terminals installed at the merchants for capturin"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 18,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 18,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "REs should ensure that terminals installed at the merchants for capturing card d"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 27,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 27,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank as an Acquirer shall secure its card payment infrastructure [Unique Key"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 18,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 18,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Acquirers shall secure their card payment infrastructure (Unique Key Per Termina"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 63482
+  },
+  {
+    "id": "multi_clause_spanning_36",
+    "category": "multi_clause_spanning",
+    "question": "What consecutive clauses require customer onboarding usage guidelines within the app, a dedicated section for lodging grievances, and compliance with the Online Dispute Resolution system for digital payments?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      18,
+      19
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 13,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 13,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "43. REs shall mention/ incorporate a section on the digital payment application "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 13,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 13,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "44. REs shall adhere to extant instructions4, updated from time to time, to put "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 18,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 18,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "58. The bank shall incorporate secure, safe, and responsible usage guidelines an"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 18,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 18,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "59. The bank shall incorporate a section in the digital payment application clea"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 19,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 19,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "60. The bank shall be guided by RBI/2020-21/21 DPSS.CO.PD No.116/02.12.004/2020-"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 73351
+  },
+  {
+    "id": "multi_clause_spanning_37",
+    "category": "multi_clause_spanning",
+    "question": "Which provisions together govern the repeal of prior directions, and the non-prejudicial continuity of rights, penalties, and legal proceedings arising under the repealed framework?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      31
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "70. With the issue of these Directions, the existing directions, instructions, a"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "71. Notwithstanding such repeal, any action taken or purported to have been take"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "71. Notwithstanding such repeal, any action taken or purported to have been take"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "71. Notwithstanding such repeal, any action taken or purported to have been take"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(1) any right, obligation or liability acquired, accrued, or incurred thereunder"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(2) any penalty, forfeiture, or punishment incurred in respect of any contravent"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 31,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(3) any investigation, legal proceeding, or remedy in respect of any such right,"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 32,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 31,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "72. The provisions of these Directions shall be in addition to, and not in derog"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 111310
+  },
+  {
+    "id": "multi_clause_spanning_38",
+    "category": "multi_clause_spanning",
+    "question": "What clauses together require the bank's risk assessment to factor in dependence on third-party service providers, and separately require the bank to evaluate RCSA work conducted by a vendor?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      8,
+      9
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 15,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 8,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "The bank shall conduct risk assessments with regard to the safety and security o"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 15,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 8,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "(3) dependence on third-party service providers and oversight over such provider"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 9,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 9,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "In case of vendors, the bank shall evaluate the RCSA conducted by the vendor."
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "model_miss",
+    "latency_ms": 76258
+  },
+  {
+    "id": "multi_clause_spanning_39",
+    "category": "multi_clause_spanning",
+    "question": "What combination of clauses requires at least one dynamic or non-replicable authentication factor for electronic payments, and separately requires fraud-alert systems to be parameterised against signals like transaction velocity and high-risk merchant codes?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      14,
+      16
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "At least one of the authentication methodologies should be generally dynamic or "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Use of One Time Password, mobile devices (device binding and SIM), biometric/ PK"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 16,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall, inter alia, ensure, that the data in transit is secured and the "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 14,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall implement, except where explicitly permitted / relaxed, multi-fac"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 16,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "The bank shall parameterise and monitor system alerts in terms of various applic"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": false,
+        "quote_preview": "high risk merchant category codes (MCC) parameters, counterfeit card parameters "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 91393
+  },
+  {
+    "id": "vocabulary_mismatch_40",
+    "category": "vocabulary_mismatch",
+    "question": "Can a customer send money online using just their regular password, with nothing else needed to prove it's really them?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      14
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": false,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "REs should implement, except where explicitly permitted/ relaxed, multi-factor a"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "At least one of the authentication methodologies should be generally dynamic or "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 10,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 10,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The key objectives of multi-factor authentication are to protect the confidentia"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 21,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 21,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank, based on its risk / vulnerability assessment on authentication-related"
+      }
+    ],
+    "outcome": "retrieval_miss",
+    "outcome_stated": "retrieval_miss",
+    "latency_ms": 82759
+  },
+  {
+    "id": "vocabulary_mismatch_41",
+    "category": "vocabulary_mismatch",
+    "question": "Are banks allowed to keep customers' card numbers written out in plain, readable form anywhere in their systems or at vendor locations?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      29
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 29,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 29,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "ensure that card details of the customers are not stored in plain text at the ba"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 19,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 19,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Ensure HSM is implemented with secure PIN block format with controls to disable "
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 63275
+  },
+  {
+    "id": "vocabulary_mismatch_42",
+    "category": "vocabulary_mismatch",
+    "question": "How does the bank stop someone from making payments through a fake or cloned version of its app?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      13
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 22,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 22,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "On detection of any anomalies or exceptions for which the mobile application was"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 22,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 22,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank shall be able to verify the version of the mobile application before th"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank may perform validation on the security and compatibility condition of t"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank may explore the feasibility of implementing a code that checks if the d"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank shall host the checksum of current active version of its mobile applica"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "A checksum may be treated as a unique mechanism for identifying the bank’s mobil"
+      }
+    ],
+    "outcome": "model_miss",
+    "outcome_stated": "model_miss",
+    "latency_ms": 76752
+  },
+  {
+    "id": "vocabulary_mismatch_43",
+    "category": "vocabulary_mismatch",
+    "question": "Can a customer just skip past the safety instructions when they first set up the banking app?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      18
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": false,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 14,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 14,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "clear and effective communication followed by sufficient instructions to properl"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 15,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 14,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "REs should provide a mechanism on their mobile and internet banking application "
+      }
+    ],
+    "outcome": "retrieval_miss",
+    "outcome_stated": "retrieval_miss",
+    "latency_ms": 60593
+  },
+  {
+    "id": "vocabulary_mismatch_44",
+    "category": "vocabulary_mismatch",
+    "question": "What happens if someone keeps typing the wrong PIN or password into the banking app — does it lock them out, and how do they get back in?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      16
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 25,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 25,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "(v) display certificate errors on account of the certificate not being signed by"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 25,
+        "page_retrieved": true,
+        "quote_match": "loose",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 25,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "(iii) write sensitive information to the database in an encrypted form (database"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "35. REs should set down the maximum number of failed log-in or authentication at"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "36. The REs shall document and implement the configuration aspects for identifyi"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 16,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "50. The bank shall set down the maximum number of failed login or authentication"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 78664
+  },
+  {
+    "id": "vocabulary_mismatch_45",
+    "category": "vocabulary_mismatch",
+    "question": "Does the bank have to watch out for fake lookalike apps pretending to be its own on app stores and the web?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      13
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "(vii) ensuring minimal data collection / app permissions;"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "(viii) application sandbox / containerisation; and"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "(ix) code obfuscation."
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "unverified",
+        "resolved_document_id": null,
+        "resolved_page": null,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank may also explore the feasibility of implementing a code that checks if "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank shall host the checksum of current active version of its mobile applica"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "A checksum may be treated as a unique mechanism for identifying the bank’s mobil"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Where the mobile application is made available exclusively through mobile platfo"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank shall ensure device binding of the mobile application. Device binding s"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "In case, the bank allows multiple devices to be registered, then, (i) the user s"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 37,
+        "page_retrieved": false,
+        "quote_match": "no_page",
+        "resolution": "corrected",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 13,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": true,
+        "quote_preview": "The bank shall institute a mechanism to actively monitor for non-genuine / unaut"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "model_miss",
+    "latency_ms": 99952
+  },
+  {
+    "id": "vocabulary_mismatch_46",
+    "category": "vocabulary_mismatch",
+    "question": "Will the banking app refuse to install or work on a phone that's been hacked open or jailbroken by its owner?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      24
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": false,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 23,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 23,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "The bank may explore the feasibility of implementing a code that checks if the d"
+      }
+    ],
+    "outcome": "retrieval_miss",
+    "outcome_stated": "retrieval_miss",
+    "latency_ms": 48298
+  },
+  {
+    "id": "vocabulary_mismatch_47",
+    "category": "vocabulary_mismatch",
+    "question": "What does the bank do to stop card-skimming devices being attached to its ATMs?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      28
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 28,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 28,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(6) The bank shall ensure the following for improving the security posture of th"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 28,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 28,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(ii) implement anti-skimming and whitelisting solution; and"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 28,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 28,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "(iii) upgrade all ATMs with supported versions of operating system."
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 63352
+  },
+  {
+    "id": "vocabulary_mismatch_48",
+    "category": "vocabulary_mismatch",
+    "question": "If an outside software vendor messes up security on an app it built for the bank, can the bank actually penalise them for it?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      12
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": false,
+    "gold_cited": false,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 13,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 13,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Penal provisions are included in third-party contractual arrangements for any no"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 8,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 8,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "Penal provisions shall be included by the RE into third-party contractual arrang"
+      }
+    ],
+    "outcome": "model_miss",
+    "outcome_stated": "model_miss",
+    "latency_ms": 65845
+  },
+  {
+    "id": "vocabulary_mismatch_49",
+    "category": "vocabulary_mismatch",
+    "question": "What kind of unusual account activity does the bank's fraud system watch out for, like sudden bursts of transactions or payments from strange locations?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "gold_pages": [
+      16,
+      17
+    ],
+    "status": "ANSWERED",
+    "gold_retrieved": true,
+    "gold_cited_stated": true,
+    "gold_cited": true,
+    "evidence_checks": [
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 17,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 17,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "54. The bank shall conduct fraud analysis to identify the reason for fraud occur"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 17,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 17,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": true,
+        "quote_preview": "55. The bank shall educate the staff, especially in the fraud control function, "
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "page": 11,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+        "resolved_page": 11,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "37. System alerts shall be parameterised and monitored in terms of various appli"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 16,
+        "page_retrieved": true,
+        "quote_match": "none",
+        "resolution": "unverified",
+        "resolved_document_id": null,
+        "resolved_page": null,
+        "candidates": null,
+        "gold_hit_stated": true,
+        "gold_hit": false,
+        "quote_preview": "53. The bank shall document and implement the configuration requirements for ide"
+      },
+      {
+        "document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "page": 29,
+        "page_retrieved": true,
+        "quote_match": "exact",
+        "resolution": "as_cited",
+        "resolved_document_id": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+        "resolved_page": 29,
+        "candidates": null,
+        "gold_hit_stated": false,
+        "gold_hit": false,
+        "quote_preview": "(i) ensure robust surveillance / monitoring of card transactions (especially ove"
+      }
+    ],
+    "outcome": "gold_cited",
+    "outcome_stated": "gold_cited",
+    "latency_ms": 48984
+  }
+]

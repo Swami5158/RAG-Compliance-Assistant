@@ -214,19 +214,42 @@ def load_data(pdf_path: str, document_id: str):
     close_chapter()
     return chapters
 
+def debug_pages(pdf_path, start_page, end_page):
+    items = extract_items(pdf_path)
+    for item in items:
+        if item["page_no"] is not None and start_page <= item["page_no"] <= end_page:
+            print(f"page={item['page_no']} label={item['label']} text_preview={item['text'][:80]!r}")
+
+
+# if __name__ == "__main__":
+#     debug_pages("../documents/MD_DigitalPaymentSecurity_2021.pdf", 18, 20)
+def debug_table_item(pdf_path, target_page):
+    converter = _get_converter()
+    result = converter.convert(pdf_path)
+    doc = result.document
+    for item, level in doc.iterate_items():
+        prov = getattr(item, "prov", None)
+        page_no = prov[0].page_no if prov else None
+        if page_no == target_page and getattr(item, "label", None) == "table":
+            print(type(item))
+            print([m for m in dir(item) if not m.startswith("_")])
+
 
 if __name__ == "__main__":
-    pdf_path = "../documents/MD_DigitalPaymentSecurity_2021.pdf"
-    chapters = load_data(pdf_path, "MD_DIGITAL_PAYMENT_SECURITY_2021")
+    inspect_docling_structure("../documents/MD_DigitalPaymentSecurity_2026.pdf", target_page=3)
 
-    for ch in chapters:
-        if ch["page_start"] <= 4 <= ch["page_end"]:
-            print(f"\nCHAPTER: {ch['chapter']} — {ch['title']}")
-            for sec in ch["sections"]:
-                if sec["page_start"] <= 4 <= sec["page_end"]:
-                    print(f"\n  SECTION: {sec['section']}")
-                    print(f"  SECTION TEXT: {sec['text']}")
-                    for clause in sec["clauses"]:
-                        if clause["page_start"] <= 4 <= clause["page_end"]:
-                            print(f"\n    CLAUSE {clause['number']}:")
-                            print(f"    {clause['text']}")
+# if __name__ == "__main__":
+#     pdf_path = "../documents/MD_DigitalPaymentSecurity_2021.pdf"
+#     chapters = load_data(pdf_path, "MD_DIGITAL_PAYMENT_SECURITY_2021")
+
+#     for ch in chapters:
+#         if ch["page_start"] <= 4 <= ch["page_end"]:
+#             print(f"\nCHAPTER: {ch['chapter']} — {ch['title']}")
+#             for sec in ch["sections"]:
+#                 if sec["page_start"] <= 4 <= sec["page_end"]:
+#                     print(f"\n  SECTION: {sec['section']}")
+#                     print(f"  SECTION TEXT: {sec['text']}")
+#                     for clause in sec["clauses"]:
+#                         if clause["page_start"] <= 4 <= clause["page_end"]:
+#                             print(f"\n    CLAUSE {clause['number']}:")
+#                             print(f"    {clause['text']}")

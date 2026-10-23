@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the maximum permitted timeframe for phasing out older mobile application versions after a newer version is released?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 22"
+  },
+  {
+    "question": "Within what timeframe must the digital payment transaction reconciliation framework be completed between the bank and stakeholders?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 18"
+  },
+  {
+    "question": "How frequently must backed-up data and applications pertaining to digital payment products be tested for recovery?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 10"
+  },
+  {
+    "question": "How frequently must Vulnerability Assessment (VA) and Penetration Testing (PT) be conducted on digital payment applications?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 8"
+  },
+  {
+    "question": "What definition is given for 'Phishing' in the 2026 Directions?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 4"
+  },
+  {
+    "question": "What is the required review frequency for digital payment security policies under the Board governance rules in 2026?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 5"
+  },
+  {
+    "question": "What protection standard applies to sensitive information written to 'temp' files on mobile devices?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 17"
+  },
+  {
+    "question": "Does the 2026 document permit banks to store unencrypted card details at vendor locations or systems?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 26"
+  },
+  {
+    "question": "What mechanism must be provided on internet banking websites to plug vulnerabilities against automated brute-force attacks?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 21"
+  },
+  {
+    "question": "What is required when an internet banking application is accessed through external websites for e-commerce or tax payment?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 15"
+  },
+  {
+    "question": "Under which Acts are the statutory powers conferred to issue the 2021 Master Direction?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 3"
+  },
+  {
+    "question": "What action must a bank take regarding unused or unwanted features on chosen technology platforms?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 9"
+  },
+  {
+    "question": "How must decryption and validation of keys and PIN be performed in payment card systems?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 18"
+  },
+  {
+    "question": "What action must a mobile application take when an SSL/TLS certificate error occurs due to an untrusted certificate authority?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 22"
+  },
+  {
+    "question": "What feature must digital payment applications provide to allow consumers to lodge grievances?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 18"
+  },
+  {
+    "question": "Which Regulated Entities (REs) fall under the applicability scope of the respective directions? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 3"
+  },
+  {
+    "question": "Which Regulated Entities (REs) fall under the applicability scope of the respective directions? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 2"
+  },
+  {
+    "question": "When do the respective Directions take effect after publication? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 3"
+  },
+  {
+    "question": "When do the respective Directions take effect after publication? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 2"
+  },
+  {
+    "question": "Is a source code escrow arrangement strictly required for third-party licensed payment applications? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 8"
+  },
+  {
+    "question": "Is a source code escrow arrangement strictly required for third-party licensed payment applications? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 12"
+  },
+  {
+    "question": "Are cash withdrawals at ATMs, micro-ATMs, and business correspondents explicitly subject to Multi-Factor Authentication (MFA)? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 10"
+  },
+  {
+    "question": "Are cash withdrawals at ATMs, micro-ATMs, and business correspondents explicitly subject to Multi-Factor Authentication (MFA)? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 14"
+  },
+  {
+    "question": "What exception is provided for foreign banks regarding a separate local policy for digital payment security? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 4"
+  },
+  {
+    "question": "What exception is provided for foreign banks regarding a separate local policy for digital payment security? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 6"
+  },
+  {
+    "question": "Where must discovered unencrypted payment card data reside when card data scanning tools are used during audits? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 20"
+  },
+  {
+    "question": "Where must discovered unencrypted payment card data reside when card data scanning tools are used during audits? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 26"
+  },
+  {
+    "question": "What framework standard replaces PA-DSS in the card payment security controls? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 18"
+  },
+  {
+    "question": "What framework standard replaces PA-DSS in the card payment security controls? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 26"
+  },
+  {
+    "question": "What entity name must be identified in transaction alerts and OTPs received by customers for online payments? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 10"
+  },
+  {
+    "question": "What entity name must be identified in transaction alerts and OTPs received by customers for online payments? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 16"
+  },
+  {
+    "question": "How is device binding defined and implemented for mobile payment applications? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 17"
+  },
+  {
+    "question": "How is device binding defined and implemented for mobile payment applications? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 22"
+  },
+  {
+    "question": "What alternative is provided if a mobile app checksum cannot be hosted directly on a public platform due to exclusive app store distribution? (2021 baseline)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 16"
+  },
+  {
+    "question": "What alternative is provided if a mobile app checksum cannot be hosted directly on a public platform due to exclusive app store distribution? (2026 update)",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 22"
+  },
+  {
+    "question": "What combination of generic security controls covers web application protocols, hidden client storage restrictions, WAF deployment, encryption algorithm standards, certificate renewal, and application logging?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Pages 10\u201311"
+  },
+  {
+    "question": "What combination of clauses defines Board approval, annual review timelines, and mandatory product policy contents for digital payment security?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Pages 5\u20136"
+  },
+  {
+    "question": "What clauses govern the combination of maximum failed login/authentication attempts, access blocking, re-activation procedures, and customer alerts?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 16"
+  },
+  {
+    "question": "What sequential clauses outline the Application Security Life Cycle from architecture tiering, secure by design principles, phase definition, threat modelling, through to escrow arrangements?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Pages 11\u201312"
+  },
+  {
+    "question": "What consecutive clauses specify continuous automated VA scanning, vulnerability trend analysis/remediation, and authenticated scanning modes?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Pages 8\u20139"
+  },
+  {
+    "question": "What consecutive clauses govern merchant payment terminal validation against PCI-P2PE, PoS terminal PCI-PTS approval, and acquirer key security protocols (UKPT/DUKPT/TLE)?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 26"
+  },
+  {
+    "question": "What consecutive clauses regulate user onboarding security guidelines, grievance redressal section inclusion on applications, and Online Dispute Resolution (ODR) system compliance?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Pages 18\u201319"
+  },
+  {
+    "question": "Which provisions govern the repeal of prior directions, the savings of actions taken under repealed circulars, and non-prejudicial continuity of existing liabilities or penalties?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 31"
+  },
+  {
+    "question": "Does the 2026 regulatory update cancel or wipe out the 2021 digital payment security rules?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 31"
+  },
+  {
+    "question": "Are banks allowed to put customer account numbers or credit card numbers in plain text SMS messages or emails sent to users?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 14"
+  },
+  {
+    "question": "What safety measures must banks take against cyberattacks involving middleman traps or browser session hijacking?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 16"
+  },
+  {
+    "question": "Can a customer lock down or turn off an old phone that was previously registered for their mobile banking app?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 22"
+  },
+  {
+    "question": "Does the mobile banking app need to block users if their phone has been hacked or unlocked at the root operating system level?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2021",
+    "page_number": "Page 16"
+  },
+  {
+    "question": "Can banks automatically sign up customers for mobile banking or internet banking without asking them first?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Pages 19\u201320"
+  },
+  {
+    "question": "If a third-party vendor makes a mistake or fails to comply with security standards in a software app built for the bank, can the bank fine or penalise them?",
+    "document_title": "MD_DIGITAL_PAYMENT_SECURITY_2026",
+    "page_number": "Page 12"
+  }
+]
